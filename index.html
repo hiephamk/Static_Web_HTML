@@ -13,26 +13,21 @@
         box-sizing: border-box;
     }
 
-    .card {
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+    }
+
+    < !-- .card {
         background-image: url(./img/background3.jpg);
         background-size: 100% 100%;
-        position: relative
+        position: relative width
     }
 
-    .banner {
-        background-image: url(./img/FBanner.jpeg);
-        width: 100%;
-        height: 500px;
-    }
-
-    @media screen and (max-width:576px) {
-        .banner {
-            max-width: 100%;
-        }
-
-    }
-
-    .card-header {
+    -->.card-header {
         background-image: url(./img/background4.jpeg);
         background-size: auto;
     }
@@ -43,15 +38,31 @@
 
     }
 
+    button {
+        background: transparent;
+        border: 1px solid #6e6363;
+    }
+
+    button>a {
+        text-decoration: none;
+    }
+
     .card-footer {
         position: absolute;
         bottom: 0;
+
+    }
+
+    .btn :hover {
+        background: #aea3a3;
+        cursor: pointer;
+        ;
     }
 </style>
 
 <body>
-    <div class="card d-flex-column">
-        <div class="card-header row d-block d-flex justify-content-between">
+    <div class="card d-flex-column bg-dark bg-opacity-100">
+        <div class="card-header d-flex justify-content-between">
             <div class="logo col-4"><img src="./img/tesla-logo-2007-full-640.pnp.webp" alt="" style="width:25%"></div>
             <div class="col-8">
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -97,69 +108,83 @@
                 </nav>
             </div>
         </div>
-        <div class="banner" style="width: 100%;height:200px;">
-        </div>
-        <div class="card-body row ">
-            <div class="col-2 d-block">
-                <div><img class="img-fluid" src="./img/imange-side.jpeg" alt=""></div>
-                <div><img class="img-fluid" src="./img/image-left.jpeg" alt=""></div>
-                <div><img class="img-fluid" src="./img/imange-side.jpeg" alt=""></div>
-            </div>
-            <div class="col-8">
-                <div class="container text-center">
 
-                    <div class="row">
-                        <div class="col-3 p-3"><img class="img-fluid" src="./img/car1.jpeg" alt="Product_1">produc_1
-                        </div>
-                        <div class="col-3 p-3"><img class="img-fluid" src="./img/car1.jpeg" alt="Product_2">produc_2
-                        </div>
-                        <div class="col-3 p-3"><img class="img-fluid" src="./img/car1.jpeg" alt="Product_2">produc_3
-                        </div>
-                        <div class="col-3 p-3"><img class="img-fluid" src="./img/car1.jpeg" alt="Product_2">produc_4
-                        </div>
+        <div class="card-body container align-content-center">
+            <div class="banner row p-3"><img class="img-fluid w-100" src="./img/car5.jpeg" alt=""></div>
+            <div class="offer-bar row justify-content-between p-3">
+                <div class="btn col-4">
+                    <div class="btn text-center"><img style=" width: 80px;height:80px" src="./img/icon-video.svg"
+                            alt="Video">
+                        <a href="https://www.youtube.com/watch?v=fdGWRq1dVBA" target="#">
+                            <p>View video offers</p>
+                        </a>
                     </div>
-                    <div class="row">
-                        <div class="col-3 p-3"><img class="img-fluid" src="./img/car3.jpeg" alt="Product_1">produc_5
-                        </div>
-                        <div class="col-3 p-3"><img class="img-fluid" src="./img/car3.jpeg" alt="Product_1">produc_6
-                        </div>
-                        <div class="col-3 p-3"><img class="img-fluid" src="./img/car3.jpeg" alt="Product_1">produc_7
-                        </div>
-                        <div class="col-3 p-3"><img class="img-fluid" src="./img/car3.jpeg" alt="Product_1">produc_8
-                        </div>
-
+                </div>
+                <div class="btn col-4">
+                    <div class="btn tex-center"><img style="width: 80px;height:80px;" src="./img/icon-gear.svg" alt="">
+                        <a href="#">
+                            <p>Build your own car</p>
+                        </a>
                     </div>
-                    <div class="row">
-                        <div class="col-3 p-3"><img class="img-fluid" src="./img/car4.jpeg" alt="Product_1">produc_9
-                        </div>
-                        <div class="col-3 p-3"><img class="img-fluid" src="./img/car4.jpeg" alt="Product_1">produc_10
-                        </div>
-                        <div class="col-3 p-3"><img class="img-fluid" src="./img/car4.jpeg" alt="Product_1">produc_11
-                        </div>
-                        <div class="col-3 p-3"><img class="img-fluid" src="./img/car4.jpeg" alt="Product_1">produc_12
-                        </div>
-
+                </div>
+                <div class="btn col-4">
+                    <div class="btn text-center"><img style="width: 80px;height:80px" src="./img/icon-bill.svg" alt="">
+                        <a href="#">
+                            <p>Get a Quote</p>
+                        </a>
                     </div>
-
                 </div>
             </div>
-            <div class="col-2 d-block p-2">
-                <div><img class="img-fluid" src="./img/imange-side.jpeg" alt=""></div>
-                <div><img class="img-fluid" src="./img/image-left.jpeg" alt=""></div>
-                <div><img class="img-fluid" src="./img/imange-side.jpeg" alt=""></div>
+
+            <div class="row">
+                <div class="col-4 "><img class="img-fluid" src="./img/tesla-1.jpeg" alt="Product_1">produc_1
+                </div>
+                <div class="col-4 "><img class="img-fluid" src="./img/tesla-2.jpeg" alt="Product_2">produc_2
+                </div>
+                <div class="col-4 "><img class="img-fluid" src="./img/tesla-3.jpeg" alt="Product_2">produc_3
+                </div>
 
             </div>
-            <footer class="card-footer d-flex justify-content-between"
-                style="background-image: url(./img/background.jpeg);width:100%;height:fit-content;text-align:center">
-                <div class="col-4 text-light">Company Info</div>
-                <div class="col-4 text-light">Company Info</div>
-                <div class="col-4 text-light">Company Info</div>
-            </footer>
+            <div class="row bg-dark bg-opacity-75 m-2 p-3">
+                <div class="col-6">
+                    <div>
+                        <iframe class="img-fluid" style="height: 400px;" src="https://giphy.com/embed/6swcfDQHr3UTm"
+                            width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                    </div>
+                </div>
+                <div class="col-6 text-light text-justify" style="padding-top:100px">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora vel molestias aliquam
+                        magni amet ut at soluta facere, aliquid, quia quibusdam distinctio facilis. Quo eaque
+                        sed, nemo soluta temporibus possimus.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa veniam quod atque. Sed
+                        dolore tenetur, commodi animi tempore quo odit ducimus quas ratione ipsum mollitia, ut
+                        quos voluptatem ex modi?</p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-between">
+                <div class="col-3 pt-3"><img class="img-fluid" src="./img/car-1.jpeg" alt="Product_1">produc_9
+                </div>
+                <div class="col-3 p-3"><img class="img-fluid" src="./img/car-2.jpeg" alt="Product_1">produc_10
+                </div>
+                <div class="col-3 p-3"><img class="img-fluid" src="./img/car-4.jpeg" alt="Product_1">produc_11
+                </div>
+                <div class="col-3 p-3"><img class="img-fluid" src="./img/car-3.jpeg" alt="Product_1">produc_12
+                </div>
+
+            </div>
 
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-            crossorigin="anonymous"></script>
+        <footer class="card-footer d-flex justify-content-between"
+            style="background-image: url(./img/background.jpeg);width:100%;height:fit-content;text-align:center">
+            <div class="col-4 text-light">Company Info</div>
+            <div class="col-4 text-light">Company Info</div>
+            <div class="col-4 text-light">Company Info</div>
+        </footer>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
