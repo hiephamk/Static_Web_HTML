@@ -5,173 +5,217 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Product</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: max-content;
+            position: relative;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        button {
+            background: transparent;
+            border: 1px solid #6e6363;
+        }
+
+        .card-header {
+            width: 100%;
+        }
+
+        nav {
+            background: transparent;
+        }
+
+        .card-body {
+            width: 100%;
+            height: auto;
+        }
+
+        .btn :hover {
+            background: #aea3a3;
+            cursor: pointer;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        ul>li {
+            list-style: none;
+            padding: 10px;
+        }
+    </style>
 </head>
 <!--  -->
 
-<body>
-    <div class="card d-flex-column bg-dark bg-opacity-100">
-        <!-- header -->
-        <div class="card-header d-flex justify-content-between">
-            <div class="logo col-4"><img src="./img/tesla-logo-2007-full-640.pnp.webp" alt="" style="width:25%"></div>
-            <div class="col-8">
-                <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                    <div class="container-fluid">
-                        <a class="navbar-brand fw-bold text-primary" href="#">Home</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active fw-bold text-primary" aria-current="page" href="#">About
-                                        Us</a>
-                                </li>
+<body class="d-flex-column bg-dark">
+    <div class="row border-bottom border-5">
 
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle fw-bold text-primary" href="#" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Products
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link fw-bold text-primary" href="#">Contacts</a>
-                                </li>
-                            </ul>
-                            <form class="d-flex" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success fw-bold text-primary"
-                                    type="submit">Search</button>
-                            </form>
+        <div class="logo col-4"><img src="./img/tesla-logo-2007-full-640.pnp.webp" alt="" style="width:25%"></div>
+        <div class="nav-bar col-8">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand fw-bold text-light" href="index.html">Home</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active fw-bold text-light" aria-current="page" href="#">About
+                                    Us</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle fw-bold text-light" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Products
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#Hybrid">Hybrid Cars</a></li>
+                                    <li><a class="dropdown-item" href="#Electric">Electric Cars</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#Accessory">Accessories</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold text-light" href="#">Contacts</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success fw-bold text-dark" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- body -->
+    <div class="card-body d-flex-column">
+        <div class="banner container"><img src="./img/FBanner.jpeg" alt=""></div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-8 bg-secondary-subtle">
+                <div class="offer-bar row justify-content-between p-3">
+                    <div class="btn col-4">
+                        <div class="btn text-center"><img style=" width: 80px;height:80px" src="./img/icon-video.svg"
+                                alt="Video">
+                            <a href="https://www.youtube.com/watch?v=fdGWRq1dVBA" target="#">
+                                <p>View video offers</p>
+                            </a>
                         </div>
                     </div>
-                </nav>
+                    <div class="btn col-4">
+                        <div class="btn tex-center"><img style="width: 80px;height:80px;" src="./img/icon-gear.svg"
+                                alt="">
+                            <a href="product.html" target="#">
+                                <p>Build your own car</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="btn col-4">
+                        <div class="btn text-center"><img style="width: 80px;height:80px" src="./img/icon-bill.svg"
+                                alt="">
+                            <a href="Contact.html" target="#">
+                                <p>Get a Quote</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="Accessory">
+                    <h2>Accessories</h2>
+                </div>
+                <div class="row">
+                    <div class="col-4 "><img class="img-fluid" src="./img/tesla-1.jpeg" alt="Product_1">produc_1
+                    </div>
+                    <div class="col-4 "><img class="img-fluid" src="./img/tesla-2.jpeg" alt="Product_2">produc_2
+                    </div>
+                    <div class="col-4 "><img class="img-fluid" src="./img/tesla-3.jpeg" alt="Product_2">produc_3
+                    </div>
+                </div>
+
+                <div class=" border-5 border-black border-top">
+                    <div class="row text-dark" id="Hybrid">
+                        <h2>Hybrid Cars</h2>
+                    </div>
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-3 pt-3"><img class="img-fluid" src="./img/car-1.jpeg" alt="Product_1">produc_9
+                        </div>
+                        <div class="col-3 p-3"><img class="img-fluid" src="./img/car-2.jpeg" alt="Product_1">produc_10
+                        </div>
+                        <div class="col-3 p-3"><img class="img-fluid" src="./img/car-4.jpeg" alt="Product_1">produc_11
+                        </div>
+                        <div class="col-3 p-3"><img class="img-fluid" src="./img/car-3.jpeg" alt="Product_1">produc_12
+                        </div>
+
+                    </div>
+                </div>
+                <div class=" border-5 border-black border-top">
+                    <div class="row text-dark" id="Electric">
+                        <h2>Electric Cars</h2>
+                    </div>
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-3 pt-3"><img class="img-fluid" src="./img/car-1.jpeg" alt="Product_1">produc_9
+                        </div>
+                        <div class="col-3 p-3"><img class="img-fluid" src="./img/car-2.jpeg" alt="Product_1">produc_10
+                        </div>
+                        <div class="col-3 p-3"><img class="img-fluid" src="./img/car-4.jpeg" alt="Product_1">produc_11
+                        </div>
+                        <div class="col-3 p-3"><img class="img-fluid" src="./img/car-3.jpeg" alt="Product_1">produc_12
+                        </div>
+
+                    </div>
+                </div>
             </div>
+            <div class="col"></div>
         </div>
-        <!-- body -->
-        <div class="card-body container align-content-center">
-            <div class="banner row p-3"><img class="img-fluid w-100" src="./img/car5.jpeg" alt=""></div>
-            <!-- <div class="offer-bar row justify-content-between p-3">
-                <div class="btn col-4">
-                    <div class="btn text-center"><img style=" width: 80px;height:80px" src="./img/icon-video.svg"
-                            alt="Video">
-                        <a href="https://www.youtube.com/watch?v=fdGWRq1dVBA" target="#">
-                            <p>View video offers</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="btn col-4">
-                    <div class="btn tex-center"><img style="width: 80px;height:80px;" src="./img/icon-gear.svg" alt="">
-                        <a href="#">
-                            <p>Build your own car</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="btn col-4">
-                    <div class="btn text-center"><img style="width: 80px;height:80px" src="./img/icon-bill.svg" alt="">
-                        <a href="#">
-                            <p>Get a Quote</p>
-                        </a>
-                    </div>
-                </div>
-            </div> -->
-            <div>
-                <h3>
-                    <p class="text-light">Latest Technology</p>
-                </h3>
-            </div>
-            <div class="row">
-                <div class="col-4 "><img class="img-fluid" src="./img/tesla-1.jpeg" alt="Product_1">produc_1
-                </div>
-                <div class="col-4 "><img class="img-fluid" src="./img/tesla-2.jpeg" alt="Product_2">produc_2
-                </div>
-                <div class="col-4 "><img class="img-fluid" src="./img/tesla-3.jpeg" alt="Product_2">produc_3
-                </div>
-
-            </div>
-            <!-- <div class="row bg-dark bg-opacity-75 m-2 p-3">
-                <div class="col-6">
-                    <div>
-                        <iframe class="img-fluid" style="height: 400px;" src="https://giphy.com/embed/6swcfDQHr3UTm"
-                            width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-                    </div>
-                </div>
-                <div class="col-6 text-light text-justify" style="padding-top:100px">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora vel molestias aliquam
-                        magni amet ut at soluta facere, aliquid, quia quibusdam distinctio facilis. Quo eaque
-                        sed, nemo soluta temporibus possimus.</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora vel molestias aliquam
-                        magni amet ut at soluta facere, aliquid, quia quibusdam distinctio facilis. Quo eaque
-                        sed, nemo soluta temporibus possimus.</p>
-
-                </div>
-            </div> -->
-            <div class="row text-light">
-                <h2>Coolest Cars</h2>
-            </div>
-            <div class="row d-flex justify-content-between">
-                <div class="col-3 pt-3"><img class="img-fluid" src="./img/car-1.jpeg" alt="Product_1">produc_9
-                </div>
-                <div class="col-3 p-3"><img class="img-fluid" src="./img/car-2.jpeg" alt="Product_1">produc_10
-                </div>
-                <div class="col-3 p-3"><img class="img-fluid" src="./img/car-4.jpeg" alt="Product_1">produc_11
-                </div>
-                <div class="col-3 p-3"><img class="img-fluid" src="./img/car-3.jpeg" alt="Product_1">produc_12
-                </div>
-
-            </div>
-            <div class="row text-light">
-                <h2>Electric Cars</h2>
-            </div>
-            <div class="row d-flex justify-content-between">
-                <div class="col-3 pt-3"><img class="img-fluid" src="./img/car-1.jpeg" alt="Product_1">produc_9
-                </div>
-                <div class="col-3 p-3"><img class="img-fluid" src="./img/car-2.jpeg" alt="Product_1">produc_10
-                </div>
-                <div class="col-3 p-3"><img class="img-fluid" src="./img/car-4.jpeg" alt="Product_1">produc_11
-                </div>
-                <div class="col-3 p-3"><img class="img-fluid" src="./img/car-3.jpeg" alt="Product_1">produc_12
-                </div>
-
-            </div>
-            <div class="row text-light">
-                <h2>Hybrid Cars</h2>
-            </div>
-            <div class="row d-flex justify-content-between">
-                <div class="col-3 pt-3"><img class="img-fluid" src="./img/car-1.jpeg" alt="Product_1">produc_9
-                </div>
-                <div class="col-3 p-3"><img class="img-fluid" src="./img/car-2.jpeg" alt="Product_1">produc_10
-                </div>
-                <div class="col-3 p-3"><img class="img-fluid" src="./img/car-4.jpeg" alt="Product_1">produc_11
-                </div>
-                <div class="col-3 p-3"><img class="img-fluid" src="./img/car-3.jpeg" alt="Product_1">produc_12
-                </div>
-
-            </div>
-
-        </div>
-        <!-- footer -->
-        <footer class="card-footer d-flex justify-content-between"
-            style="background-image: url(./img/background.jpeg);width:100%;height:fit-content;text-align:center">
-            <div class="col-4 text-light">Company Info</div>
-            <div class="col-4 text-light">Company Info</div>
-            <div class="col-4 text-light">Company Info</div>
-        </footer>
-
     </div>
+    <footer class="row h-100 border-top border-5 text-center text-light">
+        <div class="col-4"><span>
+                <ul>
+                    <li>Company info</li>
+                    <li>Company info</li>
+                    <li>Company info</li>
+                </ul>
+            </span>
+        </div>
+        <div class="col-4"><span>
+                <ul>
+                    <li>Company info</li>
+                    <li>Company info</li>
+                    <li>Company info</li>
+                </ul>
+            </span>
+        </div>
+        <div class="col-4"><span>
+                <ul>
+                    <li>Company info</li>
+                    <li>Company info</li>
+                    <li>Company info</li>
+                </ul>
+            </span>
+        </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
