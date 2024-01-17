@@ -49,3 +49,11 @@ button>a {
     cursor: pointer;
     ;
 }
+/* .personal-info{
+    width: 400px;
+    height: 1200px;
+    align-items: center;
+} */
+.textbox{
+    height: 500px;
+}
