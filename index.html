@@ -6,68 +6,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="stylesheet" href="styles-home.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        html,
-        body {
-            margin: 0;
-            padding: 0;
-
-        }
-
-        .body-page {
-            width: 100%;
-            height: max-content;
-            position: relative;
-        }
-
-        a {
-            text-decoration: none;
-        }
-
-        button {
-            background: transparent;
-            border: 1px solid #6e6363;
-        }
-
-        .card-header {
-            width: 100%;
-        }
-
-        nav {
-            background: transparent;
-        }
-
-        .card-body {
-            width: 100%;
-            height: auto;
-        }
-
-        .btn :hover {
-            background: #aea3a3;
-            cursor: pointer;
-        }
-
-        img {
-            width: 100%;
-        }
-
-        ul>li {
-            list-style: none;
-            padding: 10px;
-        }
-    </style>
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <!--  -->
 
 <body>
-    <div class="body-page d-flex-column bg-dark">
+    <div class="container-fluid body-page d-inline-block bg-dark align-content-center justify-content-center">
         <div class="row border-bottom border-5">
 
             <div class="logo col-4"><img src="./img/tesla-logo-2007-full-640.pnp.webp" alt="" style="width:25%"></div>
@@ -115,12 +61,12 @@
             </div>
         </div>
         <!-- body -->
-        <div class="container d-flex-column" style="max-width: 1400px;">
+        <div class="d-inline-block container align-content-center">
             <div class="banner container"><img src="./img/FBanner.jpeg" alt=""></div>
             <div class="row container main-page">
                 <div class="d-flex justify-content-between">
                     <div class="btn col-4">
-                        <div class="btn text-center"><img class="img-fluid" style=" width: 80px;height:80px"
+                        <div class="btn text-center"><img class="img-fluid" style=" width: 120px;height:80px"
                                 src="./img/icon-video.svg" alt="Video">
                             <a href="https://www.youtube.com/watch?v=fdGWRq1dVBA" target="#">
                                 <p>View video offers</p>
@@ -128,7 +74,7 @@
                         </div>
                     </div>
                     <div class="btn col-4">
-                        <div class="btn tex-center"><img class="img-fluid" style="width: 80px;height:80px;"
+                        <div class="btn tex-center"><img class="img-fluid" style="width: 120px;height:80px;"
                                 src="./img/icon-gear.svg" alt="">
                             <a href="product.html" target="#">
                                 <p>Build your own car</p>
@@ -136,7 +82,7 @@
                         </div>
                     </div>
                     <div class="btn col-4">
-                        <div class="btn text-center"><img class="img-fluid" style="width: 80px;height:80px"
+                        <div class="btn text-center"><img class="img-fluid" style="width: 120px;height:80px"
                                 src="./img/icon-bill.svg" alt="">
                             <a href="Contact.html" target="#">
                                 <p>Get a Quote</p>
@@ -144,7 +90,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="container d-flex justify-content-between border-5 border-bottom">
+                <div class="container d-inline-flex justify-content-between border-5 border-bottom align-content-center"
+                    style="margin:auto">
                     <div class="col-4 p-3"><img class="img-fluid" src="./img/tesla-1.jpeg" alt="Product_1">produc_1
                     </div>
                     <div class="col-4 p-3"><img class="img-fluid" src="./img/tesla-2.jpeg" alt="Product_2">produc_2
@@ -173,7 +120,7 @@
                 <div class="container row text-dark">
                     <h2>Coolest Cars</h2>
                 </div>
-                <div class="container d-flex justify-content-between">
+                <div class="d-flex justify-content-between">
                     <div class="col-3 p-3"><img class="img-fluid" src="./img/car-1.jpeg" alt="Product_1">produc_9
                     </div>
                     <div class="col-3 p-3"><img class="img-fluid" src="./img/car-2.jpeg" alt="Product_1">produc_10
