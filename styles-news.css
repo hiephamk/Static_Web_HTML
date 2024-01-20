@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: max-content;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background: transparent;
+  border: 1px solid #6e6363;
+}
+
+.card-header {
+  width: 100%;
+}
+
+nav {
+  background: transparent;
+}
+
+.card-body {
+  width: 100%;
+  height: auto;
+}
+
+.btn :hover {
+  background: #aea3a3;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+}
+
+ul > li {
+  list-style: none;
+  padding: 10px;
+}
