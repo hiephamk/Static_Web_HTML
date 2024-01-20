@@ -65,7 +65,7 @@ ul > li {
   justify-content: space-evenly;
 }
 .video-container {
-  background-image: url(/img/icon-video.svg);
+  background-image: url(img/icon-video.svg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 120px;
@@ -93,7 +93,7 @@ ul > li {
   font-weight: bold;
 }
 .product-container {
-  background-image: url(/img/icon-gear.svg);
+  background-image: url(img/icon-gear.svg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 120px;
@@ -115,7 +115,7 @@ ul > li {
   opacity: 1;
 }
 .quotation-container {
-  background-image: url(/img/icon-bill.svg);
+  background-image: url(img/icon-bill.svg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 120px;
