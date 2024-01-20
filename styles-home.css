@@ -1,20 +1,27 @@
-< > * {
+* {
   box-sizing: border-box;
 }
 
 html,
 body {
-  margin: auto;
+  margin: 0;
   padding: 0;
+}
+.full-page {
+  background-color: #f4f4f4;
+}
+.header {
+  background-color: #333333;
 }
 
 .body-page {
   width: 100%;
   height: max-content;
   position: relative;
+  color: #333333;
 }
 
-a {
+div > a {
   text-decoration: none;
 }
 
@@ -22,7 +29,9 @@ button {
   background: transparent;
   border: 1px solid #6e6363;
 }
-
+div > .btn :hover {
+  background-color: #6e6363;
+}
 .card-header {
   width: 100%;
 }
@@ -48,4 +57,208 @@ img {
 ul > li {
   list-style: none;
   padding: 10px;
+}
+.banner-container {
+  background-image: url("./img/car5.jpeg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100vh;
+}
+.banner-text {
+  display: inline-block;
+  color: #eff0f2;
+  width: 30%;
+  padding: 20px;
+  text-align: justify;
+}
+.icon-container {
+  margin: 20px auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.video-container {
+  background-image: url(img/icon-video.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 120px;
+  position: relative;
+  overflow: hidden;
+}
+.video {
+  background: rgba(3, 60, 3, 0.8);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 25%;
+  position: absolute;
+  bottom: 0px;
+  opacity: 0;
+}
+.video-container:hover .video {
+  opacity: 1;
+}
+.a {
+  color: #dd0b0b;
+  text-decoration: none;
+  font-size: 16;
+  font-weight: bold;
+}
+.product-container {
+  background-image: url(img/icon-gear.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+.product {
+  background: rgba(3, 60, 3, 0.8);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 25%;
+  position: absolute;
+  bottom: 0px;
+  opacity: 0;
+}
+.product-container:hover .product {
+  opacity: 1;
+}
+.quotation-container {
+  background-image: url(img/icon-bill.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 120px;
+  position: relative;
+  overflow: hidden;
+}
+.quotation {
+  background: rgba(3, 60, 3, 0.8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  padding: 25%;
+  opacity: 0;
+}
+.quotation-container:hover .quotation {
+  opacity: 1;
+}
+.banner-container {
+  margin: 10px auto;
+}
+.newcar-container {
+  text-align: center;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.newcar-img {
+  flex: 1;
+}
+.newcar-img-ver {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 25%;
+}
+.img-1 {
+  flex-basis: 50%;
+}
+.newcar-text {
+  flex: 1;
+  padding: 30px;
+  text-align: justify;
+  align-items: center;
+}
+@media (max-width: 760px) {
+  .newcar-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 760px) {
+  .item-text {
+    display: none;
+  }
+}
+@media screen and (max-width: 760px) {
+  .full-page,
+  .accessory-container {
+    margin: auto;
+    width: 80%;
+  }
+}
+.accessory-container {
+  text-align: center;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#ck {
+  display: none;
+}
+#ck:checked ~ .hide-text {
+  display: block;
+}
+label {
+  display: inline-block;
+  cursor: pointer;
+  color: #e4f0a0;
+  background-color: rgb(15, 112, 79);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.hide-text {
+  display: none;
+}
+#ch {
+  display: none;
+}
+#ch:checked ~ .hide-text {
+  display: block;
+}
+.Discovery-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.discovery-item {
+  display: flex;
+}
+.item-img {
+  position: relative;
+  width: 100%;
+  display: block;
+  margin: 0 10px;
+  flex-basis: 30%;
+  cursor: pointer;
+}
+.item-text {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(239, 238, 238, 0.6);
+  color: #f10612;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 15px;
+  margin: auto 0;
+  transition: all 0.5s;
+  opacity: 0;
+}
+.item-img:hover .item-text {
+  opacity: 1;
 }
