@@ -46,3 +46,29 @@ ul > li {
   list-style: none;
   padding: 10px;
 }
+
+nav {
+  margin-top: auto;
+  padding: 24px;
+  text-align: center;
+  /* box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); */
+  /* background: #3fa46a; */
+}
+
+nav a {
+  transition: 0.3s ease;
+  /* background: #3fa46a; */
+  color: #E74C3C;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  padding: 20px 0;
+  margin: 0 5px;
+  font-size: 17px;
+}
+nav a:hover {
+  /* border-top: 4px solid white; */
+  border-bottom: 4px solid #E74C3C;
+  padding: 6px 0; 
+}
