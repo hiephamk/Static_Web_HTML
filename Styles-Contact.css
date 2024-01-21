@@ -1,158 +1,38 @@
-/* Styles-Contact.css */
-
-/* Add this to your Styles-Contact.css */
-
-.bg-image {
-    /* This will cover the entire size of the element with your background image. */
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-  }
-  
-  .car-image img {
-    /* Assuming you want to display the car image at full width */
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .digital-services-info img {
-    /* Adjust the styling as needed */
-    max-width: 50%;
-    height: auto;
-  }
-  
-
-/* Reset some basic elements to match the mockup style */
-body, h2, p {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif; /* You might need to adjust the font-family to match your design */
-  }
-  
-  /* Style the main content area */
-  main.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  /* Style for the form section */
-  .contact-form h2 {
-    font-size: 2rem;
-    color: #333; /* Adjust the color to match your design */
-    margin-bottom: 10px;
-  }
-  
-  .contact-form p {
-    color: #666; /* Adjust the color to match your design */
-    margin-bottom: 20px;
-  }
-  
-  /* Form field styles */
-  .contact-form form {
-    background: #f9f9f9; /* Adjust the background to match your design */
-    padding: 20px;
-    border-radius: 5px; /* You might want to adjust the border-radius */
-  }
-  
-  .contact-form .form-control {
-    border: 1px solid #ddd; /* Adjust the border color to match your design */
-    border-radius: 4px; /* You might want to adjust the border-radius */
-    margin-bottom: 15px; /* Spacing between fields */
-  }
-  
-  .contact-form .form-control:focus {
-    border-color: #aaa; /* Color when the input is focused */
-    box-shadow: none; /* Remove default Bootstrap shadow */
-  }
-  
-  /* Button styles */
-  .contact-form button.btn {
-    background-color: #0056b3; /* Adjust button color to match your design */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .contact-form button.btn:hover {
-    background-color: #003d82; /* Darker shade for hover state */
-  }
-  
-  /* Style for the digital services info section */
-  .digital-services-info {
-    margin-top: 40px; /* Spacing from the form */
-  }
-  
-  .digital-services-info h2 {
-    font-size: 1.5rem;
-    color: #333; /* Adjust the color to match your design */
-    margin-bottom: 10px;
-  }
-  
-  .digital-services-info p {
-    color: #666; /* Adjust the color to match your design */
-  }
-  
-  /* Footer styles */
-  footer {
-    background: #f3f3f3; /* Adjust the background to match your design */
-    color: #333; /* Adjust the color to match your design */
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 40px; /* Spacing from the content above */
-  }
-  
-  /* Add any additional styles for header, navigation, and other elements as needed */
-  
-
-
-
-
-
+/* General */
 * {
   box-sizing: border-box;
 }
-
+  
 html,
 body {
   margin: 0;
   padding: 0;
+  position: relative;
+  width: 100%;
+  height: max-content;
+  background: #F4F4F4;
+}
+
+.body-container {
   width: 100%;
   height: max-content;
   position: relative;
+  color: #333333;
 }
 
-a {
+div > a {
   text-decoration: none;
+  color:#333333;
 }
 
 button {
   background: transparent;
-  border: 1px solid #6e6363;
-}
-
-.card-header {
-  width: 100%;
-}
-
-nav {
-  background: transparent;
+  border: 2px solid #E74C3C;
 }
 
 .card-body {
   width: 100%;
   height: auto;
-}
-
-textarea {
-  height: 300px;
-}
-
-.btn :hover {
-  background: #aea3a3;
-  cursor: pointer;
 }
 
 img {
@@ -163,3 +43,331 @@ ul > li {
   list-style: none;
   padding: 10px;
 }
+ 
+/* Header & Navigation*/
+.card-header {
+  width: 100%;
+}
+
+nav {
+  background: transparent;
+}
+
+.navbar-logo:hover {
+  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.30));
+  zoom: 1.1;
+}
+
+.nav-link:hover {
+  border-bottom: #E74C3C 5px solid;
+}
+
+/* Search bar */
+.search {
+  width: max-content;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  height: 40px;
+  background-color: #fff;
+  color:#333333;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.search-input {
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  margin-bottom: 5px;
+  caret-color: transparent;
+  line-height: 20px;
+  transition: width 0.4s linear;
+}
+
+.search .search-input {
+  padding: 0 5px;
+  width: 100%;
+  caret-color: #E74C3C;
+  font-size: 16.5px;
+  font-weight: 300;
+  font-style: italic;
+  color: #333333;
+  transition: width 0.4s linear;
+}
+
+.search-icon {
+  height: 28px;
+  width: 28px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+  bottom: 30px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.search-icon:hover{
+  color: #fff !important;
+}
+
+/* Search button
+.form-control {
+  border: 1px solid #dddddd;
+  padding: 5px;
+  width: 100%;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background: transparent;
+  border: 1px solid #333333;
+  color: #333333;
+}
+
+.btn:hover {
+  background: #E74C3C;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}*/
+
+/* Banner */
+.banner-container {
+  background: url(img/banner-products.png);
+  background-color: rgba(51, 51, 51, 0.2);
+  background-size: 100% 100%;
+  mix-blend-mode: multiply;
+  filter: brightness(0.9);
+}
+
+.banner-text {
+  display: inline-block;
+  width: 30%;
+  padding: 20px;
+  text-align: justify;
+}
+
+.banner-text h3 {
+  color: #f4f4f4;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 50px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+}
+
+.banner-text p {
+  color: #f4f4f4;
+  font-size: 1rem;
+  font-weight: 350;
+  margin-top: 20px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+}
+
+.btn-primary {
+  background-color: #E74C3C;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.btn-primary:hover {
+  background: #fc0101;
+  font-weight: bold;
+  border:#F4F4F4 1px solid;
+  cursor: pointer;
+}
+  
+/* Call to Action */
+
+
+.cta-col {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin: 10px;
+  border: #333333 1px solid;
+  mix-blend-mode: plus-darker;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+}
+
+.cta-col:hover {
+  background: #E74C3C;
+  border: #E74C3C 1px solid;
+  filter: drop-shadow(0px 4px 4px #333333);
+  cursor: pointer;
+}
+
+div > h1 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 39px;
+  color: #333333;
+  text-align: center;
+  padding-top: 20px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cta-col:hover h1 {
+  color: #f4f4f4;
+}
+
+.cta-icon:hover {
+  color: #f4f4f4;
+  filter: drop-shadow(0px 4px 4px rgb(0, 0, 0));
+}
+
+/* Footer */
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px auto;
+  background: #333333;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+footer a {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+.footer-icon {
+  width: 30px;
+  height: auto;
+  padding: 0;
+}
+
+footer h5 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 122%;
+  color: #E74C3C;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 14.5px;
+  line-height: 24px; /* or 166% */
+  color: #F4F4F4;
+  padding: 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer img {
+  width: 30px;
+  height: auto;
+}
+
+.copyright {
+  color: #F4F4F4;
+  font-size: 14.5px;
+  text-align: left;
+  border-top: 1px solid #F4F4F4;
+  margin-top: 20px;
+  margin-left: -30px;
+}
+
+/* Product List */
+.product-container {
+  position: relative;
+  background-color: #ffffff;
+  width: 1338px;
+  height: 100%;
+  padding: 20px;
+  margin-left: 10px;
+}
+
+.divider {
+  width: 25%;
+  margin-bottom: 30px;
+  margin-left: 3px;
+}
+
+.text-box > h2 {
+  color: #333333;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  padding-top: 20px;
+}
+
+.text-box > h3 {
+  color:#E74C3C;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  margin-left: -8px;
+  margin-top: 20px;
+  margin-bottom: -3px;
+}
+
+.text-box > h6 {
+  color: #444444;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-left: -5px;
+}
+
+.text-box > p {
+  font-size: 16px;
+  line-height: 22px;
+  margin-left: -5px;
+  margin-bottom: 70px;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 576px) {
+  footer-container {
+    flex-direction: column;
+    margin: auto;
+  }
+}
+
+
+
+
+.newcar-container {
+  text-align: center;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.newcar-img {
+  flex: 1;
+}
+.newcar-img-ver {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 25%;
+}
+.img-1 {
+  flex-basis: 50%;
+}
+.newcar-text {
+  flex: 1;
+  padding: 30px;
+  text-align: justify;
+  align-items: center;
+}
+@media (max-width: 576px) {
+  .newcar-container {
+    display: flex;
+    flex-direction: column;
+  }
