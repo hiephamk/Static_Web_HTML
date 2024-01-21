@@ -1,3 +1,116 @@
+/* Styles-Contact.css */
+
+/* Add this to your Styles-Contact.css */
+
+.bg-image {
+    /* This will cover the entire size of the element with your background image. */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  
+  .car-image img {
+    /* Assuming you want to display the car image at full width */
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .digital-services-info img {
+    /* Adjust the styling as needed */
+    max-width: 50%;
+    height: auto;
+  }
+  
+
+/* Reset some basic elements to match the mockup style */
+body, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* You might need to adjust the font-family to match your design */
+  }
+  
+  /* Style the main content area */
+  main.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style for the form section */
+  .contact-form h2 {
+    font-size: 2rem;
+    color: #333; /* Adjust the color to match your design */
+    margin-bottom: 10px;
+  }
+  
+  .contact-form p {
+    color: #666; /* Adjust the color to match your design */
+    margin-bottom: 20px;
+  }
+  
+  /* Form field styles */
+  .contact-form form {
+    background: #f9f9f9; /* Adjust the background to match your design */
+    padding: 20px;
+    border-radius: 5px; /* You might want to adjust the border-radius */
+  }
+  
+  .contact-form .form-control {
+    border: 1px solid #ddd; /* Adjust the border color to match your design */
+    border-radius: 4px; /* You might want to adjust the border-radius */
+    margin-bottom: 15px; /* Spacing between fields */
+  }
+  
+  .contact-form .form-control:focus {
+    border-color: #aaa; /* Color when the input is focused */
+    box-shadow: none; /* Remove default Bootstrap shadow */
+  }
+  
+  /* Button styles */
+  .contact-form button.btn {
+    background-color: #0056b3; /* Adjust button color to match your design */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-form button.btn:hover {
+    background-color: #003d82; /* Darker shade for hover state */
+  }
+  
+  /* Style for the digital services info section */
+  .digital-services-info {
+    margin-top: 40px; /* Spacing from the form */
+  }
+  
+  .digital-services-info h2 {
+    font-size: 1.5rem;
+    color: #333; /* Adjust the color to match your design */
+    margin-bottom: 10px;
+  }
+  
+  .digital-services-info p {
+    color: #666; /* Adjust the color to match your design */
+  }
+  
+  /* Footer styles */
+  footer {
+    background: #f3f3f3; /* Adjust the background to match your design */
+    color: #333; /* Adjust the color to match your design */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px; /* Spacing from the content above */
+  }
+  
+  /* Add any additional styles for header, navigation, and other elements as needed */
+  
+
+
+
+
+
 * {
   box-sizing: border-box;
 }
