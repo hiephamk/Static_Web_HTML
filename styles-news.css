@@ -12,7 +12,7 @@ body {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: auto;
 }
 
 button {
@@ -70,5 +70,6 @@ nav a {
 nav a:hover {
   /* border-top: 4px solid white; */
   border-bottom: 4px solid #E74C3C;
+  text-decoration: auto;
   padding: 6px 0; 
 }
