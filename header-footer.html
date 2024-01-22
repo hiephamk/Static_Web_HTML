@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles-header-footer.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div
+      class="header-container border-5 border-bottom align-content-center fs-5 fw-bold text-dark"
+    >
+      <div class="logo-container">
+        <img src="./img/logo.png" alt="logo" />
+      </div>
+      <div class="nav-container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <!-- <a class="nav-link active" href="#">Home</a> -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse nav-item"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="Products.html"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Products
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Hybrid Cars</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Electric Cars</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Accessories</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="News.html">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Contact.html">Contacts</a>
+                </li>
+              </ul>
+              <div class="search">
+                <input
+                  type="text"
+                  class="search-input"
+                  placeholder="Search"
+                  name=""
+                />
+                <a href="#" class="search-icon">
+                  <img src="img/icons8-search.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- banner -->
+    <div class="banner-container d-block container">
+      <div class="banner-text">
+        <input type="checkbox" id="ck" />
+        <h3>It's NEW ITEM!</h3>
+        <p>Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet</p>
+        <div class="hide-text">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, cum
+            a. Quidem nam corporis fugiat sit nisi pariatur beatae dolore, modi
+            eligendi dolorem nihil asperiores, quae esse eveniet quod labore.
+          </p>
+          <label for="ck">Show less</label>
+        </div>
+        <label for="ck">Show More</label>
+      </div>
+    </div>
+    <!-- <div class="banner-container">
+      <img src="./img/banner-products.png" alt="" />
+      <div class="banner-text">
+        <h3>YOUR IDEAL CAR NOW AVAILABLE!</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, cum
+          a. Quidem nam corporis fugiat sit nisi pariatur beatae dolore, modi
+          eligendi dolorem nihil asperiores, quae esse eveniet quod labore.
+        </p>
+        <a class="btn btn-primary" href="Products.html" role="button"
+          >View more >></a
+        >
+      </div>
+    </div> -->
+    <!--  -->
+    <footer class="footer-container bg-dark border-5 border-top">
+      <div class="footer-item">
+        <h5>Reach to Us:</h5>
+        <div>
+          <img class="footer-icon" src="./img-hiep/icon-address.png" alt="" />
+          <a
+            href="https://maps.app.goo.gl/ycX4YBMDguRZWESV6"
+            class="footer-text"
+            target="#"
+            >PO Box 230, 13101 Hämeenlinna</a
+          >
+        </div>
+        <div>
+          <img class="footer-icon" src="./img-hiep/icon-call.jpeg" alt="" />
+          <a href="tel:0401234567" class="footer-text">+358 04 1234567</a>
+        </div>
+        <div>
+          <img class="footer-icon" src="./img-hiep/icon-email.png" alt="" />
+          <a href="mailto:info@group_13.fi" class="footer-text"
+            >info@group-13.fi</a
+          >
+        </div>
+      </div>
+      <div class="footer-item">
+        <h5>Quick Links:</h5>
+        <div>
+          <a href="index.html" class="footer-text" target="#">> Home</a>
+        </div>
+        <div>
+          <a href="Products.html" class="footer-text">> Products</a>
+        </div>
+        <div>
+          <a href="About.html" class="footer-text">> About Us</a>
+        </div>
+      </div>
+      <div class="footer-item">
+        <h5>Connect with us:</h5>
+        <div>
+          <img class="footer-icon" src="./img-hiep/icon-facebook.png" alt="" />
+          <a href="https://www.facebook.com/" class="footer-text" target="#"
+            >Facebook</a
+          >
+        </div>
+        <div>
+          <img class="footer-icon" src="./img-hiep/icon-instagram.png" alt="" />
+          <a href="https://www.instagram.com/" class="footer-text">Instagram</a>
+        </div>
+        <div>
+          <img class="footer-icon" src="./img-hiep/icon-twitterx.png" alt="" />
+          <a href="https://twitter.com/?lang=en" class="footer-text">X</a>
+        </div>
+        <div>
+          <img class="footer-icon" src="./img-hiep/icon-youtube.png" alt="" />
+          <a href="https://www.youtube.com/" class="footer-text">Youtube</a>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

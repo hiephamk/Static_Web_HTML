@@ -18,6 +18,19 @@ body {
   height: max-content;
   position: relative;
   color: #333333;
+  margin: 20px auto;
+}
+.icon-container {
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon-item {
+  flex: 1;
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+  border: 2px #1a1919 soli;
 }
 
 div > a {
@@ -29,11 +42,11 @@ button {
   background: transparent;
   border: 2px solid #e74c3c;
 }
-
+/* 
 .card-body {
   width: 100%;
   height: auto;
-}
+} */
 
 img {
   width: 100%;
@@ -45,7 +58,7 @@ ul > li {
 }
 
 /* Header & Navigation*/
-.card-header {
+/* .card-header {
   width: 100%;
 }
 
@@ -60,97 +73,11 @@ nav {
 
 .nav-link:hover {
   border-bottom: #e74c3c 5px solid;
-}
-
-/* Search bar */
-.search {
-  width: max-content;
-  margin-bottom: 15px;
-  margin-top: 10px;
-  height: 40px;
-  background-color: #fff;
-  color: #333333;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.search-input {
-  color: white;
-  border: 0;
-  outline: 0;
-  background: none;
-  width: 0;
-  margin-bottom: 5px;
-  caret-color: transparent;
-  line-height: 20px;
-  transition: width 0.4s linear;
-}
-
-.search .search-input {
-  padding: 0 5px;
-  width: 100%;
-  caret-color: #e74c3c;
-  font-size: 16.5px;
-  font-weight: 300;
-  font-style: italic;
-  color: #333333;
-  transition: width 0.4s linear;
-}
-
-.search-icon {
-  height: 28px;
-  width: 28px;
-  float: right;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 12px;
-  bottom: 30px;
-  position: relative;
-  border-radius: 5px;
-}
-
-.search-icon:hover {
-  color: #fff !important;
-}
-
-/* Search button
-.form-control {
-  border: 1px solid #dddddd;
-  padding: 5px;
-  width: 100%;
-  height: 30px;
-  margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.btn {
-  background: transparent;
-  border: 1px solid #333333;
-  color: #333333;
-}
-
-.btn:hover {
-  background: #E74C3C;
-  border: 1px solid #ffffff;
-  color: #ffffff;
-}*/
+} */
 
 /* Banner */
-.banner-container {
-  /* background: url(img/banner-products.png); */
-  background-image: url("./img-hiep/banner-home.jpeg");
-  background-color: rgba(51, 51, 51, 0.2);
-  background-size: 100% 100%;
-  width: 100%;
-  height: 100vh;
-  mix-blend-mode: multiply;
-  filter: brightness(0.9);
-}
 
-.banner-text {
+/* .banner-text {
   display: inline-block;
   width: 30%;
   padding: 20px;
@@ -171,7 +98,7 @@ nav {
   font-weight: 350;
   margin-top: 20px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-}
+} */
 
 .btn-primary {
   background-color: #e74c3c;
@@ -203,14 +130,14 @@ nav {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
 }
 
-.cta-col:hover {
+.icon-item:hover {
   background: #e74c3c;
   border: #e74c3c 1px solid;
   filter: drop-shadow(0px 4px 4px #333333);
   cursor: pointer;
 }
 
-div > h1 {
+div > h3 {
   font-weight: 600;
   font-size: 28px;
   line-height: 39px;
@@ -220,11 +147,11 @@ div > h1 {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.cta-col:hover h1 {
+.cta-icon:hover h1 {
   color: #f4f4f4;
 }
 
-.cta-icon:hover {
+.icon-item:hover {
   color: #f4f4f4;
   filter: drop-shadow(0px 4px 4px rgb(0, 0, 0));
 }
