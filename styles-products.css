@@ -140,7 +140,8 @@ nav {
 
 /* Banner */
 .banner-container {
-  background: url(img/banner-products.png);
+  /* background: url(img/banner-products.png); */
+  background-image: url("./img-hiep/banner-home.jpeg");
   background-color: rgba(51, 51, 51, 0.2);
   background-size: 100% 100%;
   mix-blend-mode: multiply;
