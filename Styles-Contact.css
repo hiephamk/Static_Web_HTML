@@ -37,95 +37,86 @@ button {
 
 img {
   width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 ul > li {
   list-style: none;
   padding: 10px;
 }
- 
-/* Header & Navigation*/
-.card-header {
+/* Header - banner */
+.header-container {
+  display: flex;
   width: 100%;
+  justify-content: space-between;
+  justify-items: center;
+  background-color: #f4f4f4;
+  margin: 0 auto;
 }
-
-nav {
-  background: transparent;
+.logo-container {
+  flex: 1;
+  width: 30px;
+  margin: 0 100px;
+  padding: 10px;
 }
-
-.navbar-logo:hover {
-  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.30));
-  zoom: 1.1;
+.logo-container > img {
+  width: 150px;
 }
-
-.nav-link:hover {
-  border-bottom: #E74C3C 5px solid;
+.nav-container {
+  flex: 4;
+  margin: auto;
 }
-
-/* Search bar */
+.nav-item {
+  padding-right: 20px;
+}
 .search {
-  width: max-content;
-  margin-bottom: 15px;
-  margin-top: 10px;
+  width: auto;
   height: 40px;
   background-color: #fff;
-  color:#333333;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.search-input {
-  color: white;
-  border: 0;
-  outline: 0;
-  background: none;
-  width: 0;
-  margin-bottom: 5px;
-  caret-color: transparent;
-  line-height: 20px;
-  transition: width 0.4s linear;
-}
-
-.search .search-input {
-  padding: 0 5px;
-  width: 100%;
-  caret-color: #E74C3C;
-  font-size: 16.5px;
-  font-weight: 300;
-  font-style: italic;
   color: #333333;
-  transition: width 0.4s linear;
+  display: block;
+  border-radius: 10px;
+  position: relative;
+  justify-items: baseline;
+}
+input {
+  font-size: 18px;
+  /*padding: 5px;
+  position: absolute;*/
+  right: 0;
 }
 
 .search-icon {
-  height: 28px;
-  width: 28px;
-  float: right;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 12px;
-  bottom: 30px;
-  position: relative;
-  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  margin-top: 25%;
 }
-
-.search-icon:hover{
-  color: #fff !important;
+.search-icon > img {
+  width: 25px;
 }
 
 
 /* Banner */
+
 .full-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Chia container thành 2 cột với kích thước bằng nhau */
+  grid-template-columns: 1fr 1fr; /* Chia container thành 2 cột với kích thước bằng nhau */
   align-items: start; /* Căn chỉnh các items ở đầu mỗi cột */
 }
+
+.full-container {
+  max-width: 1300px; /* Hoặc kích thước tối đa phù hợp với thiết kế của bạn */
+  margin: auto; /* Căn giữa container */
+  /* Định nghĩa grid và các thuộc tính khác */
+}
+
 
 .banner {
   grid-column: 1 / -1; /* Banner sẽ kéo dài từ cột đầu tiên đến cột cuối cùng */
 }
+
 
 .content {
   display: flex;
@@ -304,11 +295,14 @@ footer img {
   }
 }
 
-
+.grid-full-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Cột sẽ tự điều chỉnh dựa trên kích thước màn hình */
+  /* Các thuộc tính grid khác */
+}
 
 @media (max-width: 768px) {
-  .banner-container {
-    max-width: 100%;
+  .full-container {
    
   }
 }
