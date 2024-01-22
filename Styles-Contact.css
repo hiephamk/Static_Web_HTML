@@ -120,11 +120,6 @@ nav {
 <<<<<<< Updated upstream
 .banner-box {
   background-image: url("./img/contact-banner.jpg");
-=======
-.banner-container {
-  /* background: url(img/banner-products.png); */
-  background-image: url("./img/contact-banner.jpg");
->>>>>>> Stashed changes
   background-color: rgba(51, 51, 51, 0.2);
   background-size: 100% 100%;
   width: 100%;
