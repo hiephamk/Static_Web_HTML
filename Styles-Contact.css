@@ -117,38 +117,20 @@ nav {
 
 
 /* Banner */
-<<<<<<< Updated upstream
-.banner-box {
-  background-image: url("./img/contact-banner.jpg");
-  background-color: rgba(51, 51, 51, 0.2);
-  background-size: 100% 100%;
-  width: 100%;
-  height: 100vh;
-  mix-blend-mode: multiply;
-  filter: brightness(0.9);
+.full-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Chia container thành 2 cột với kích thước bằng nhau */
+  align-items: start; /* Căn chỉnh các items ở đầu mỗi cột */
 }
 
-.banner-text {
-  display: inline-block;
-  width: 30%;
+.banner {
+  grid-column: 1 / -1; /* Banner sẽ kéo dài từ cột đầu tiên đến cột cuối cùng */
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
   padding: 20px;
-  text-align: justify;
-}
-
-.banner-text h3 {
-  color: #f4f4f4;
-  font-size: 2rem;
-  font-weight: 700;
-  margin-top: 50px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
-}
-
-.banner-text p {
-  color: #f4f4f4;
-  font-size: 1rem;
-  font-weight: 350;
-  margin-top: 20px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
 }
 
 .btn-primary {
@@ -322,44 +304,12 @@ footer img {
   }
 }
 
-/*
-.newcar-box {
-  text-align: center;
-  margin: 20px auto;
-  display: flex;
-  justify-content: space-evenly;
-}
-.newcar-img {
-  flex: 1;
-  order: 2;
-}
-.newcar-img-ver {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 25%;
-}
-.img-1 {
-  flex-basis: 50%;
-}
-.newcar-text {
-  flex: 1;
-  padding: 30px;
-  text-align: justify;
-  align-items: center;
-  order: 1;
-}
-@media (max-width: 576px) {
-  .newcar-container {
-    display: flex;
-    flex-direction: column;
-  }}*/
+
 
 @media (max-width: 768px) {
   .banner-container {
     max-width: 100%;
-    /*display: block;
-    width: 100%;
-    height: auto;*/
+   
   }
 }
 .newcar-box {
