@@ -409,7 +409,7 @@ footer a {
 }
 /* media query */
 @media (max-width: 576px) {
-  .newcar-container, .icon-container {
+  .newcar-container, .icon-container, .expand-block {
     display: flex;
     flex-direction: column;
   }
