@@ -325,20 +325,20 @@ label {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 20px auto;
   display: flex;
   justify-content: space-evenly;
 }
 .discovery-item {
   display: flex;
   justify-content: space-evenly;
+  margin: auto;
 }
 .item-img {
   position: relative;
   width: 100%;
   display: block;
-  margin: 0 10px;
-  flex-basis: 30%;
+  margin: 0 6px;
+  padding:0 5px;
   cursor: pointer;
 }
 .item-text {
@@ -360,21 +360,44 @@ label {
 }
 .footer-container {
   display: flex;
-  justify-content: space-evenly;
-  padding: 20px auto;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 40px;
   margin: auto;
 }
+.footer-item-container{
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: #f4f0f0 1px solid;
+
+}
+.footer-item{
+  margin:20px 20px;
+}
 .footer-icon {
-  width: 20px;
+  width: 30px;
+  height: auto;
   padding: 0;
 }
 .footer-text {
-  padding: 10px;
-  text-decoration: none;
+  font-weight: 400;
+  font-size: 14.5px;
+  line-height: 24px; /* or 166% */
   color: #f4f4f4;
+  padding: 10px;
 }
 div > h5 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 122%;
   color: #e74c3c;
+}
+footer a {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+.copyright{
+  color:#f4f4f4
 }
 /* media query */
 @media (max-width: 576px) {
