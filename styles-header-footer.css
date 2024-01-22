@@ -173,8 +173,8 @@
     box-sizing: border-box;
     display: flex;
     justify-content: space-evenly;
-    padding: 20px;
-    margin: 10px;
+    padding-right: 40px;
+    margin: 10px auto;
     border: #333333 1px solid;
     mix-blend-mode: plus-darker;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
