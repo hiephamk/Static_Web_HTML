@@ -20,18 +20,6 @@ body {
   color: #333333;
   margin: 20px auto;
 }
-.icon-container {
-  margin: 20px auto;
-  display: flex;
-  justify-content: space-evenly;
-}
-.icon-item {
-  flex: 1;
-  width: 100%;
-  margin: auto;
-  box-sizing: border-box;
-  border: 2px #1a1919 soli;
-}
 
 div > a {
   text-decoration: none;
@@ -42,11 +30,6 @@ button {
   background: transparent;
   border: 2px solid #e74c3c;
 }
-/* 
-.card-body {
-  width: 100%;
-  height: auto;
-} */
 
 img {
   width: 100%;
@@ -58,7 +41,7 @@ ul > li {
 }
 
 /* Header & Navigation*/
-/* .card-header {
+.card-header {
   width: 100%;
 }
 
@@ -73,11 +56,11 @@ nav {
 
 .nav-link:hover {
   border-bottom: #e74c3c 5px solid;
-} */
+}
 
 /* Banner */
 
-/* .banner-text {
+.banner-text {
   display: inline-block;
   width: 30%;
   padding: 20px;
@@ -98,7 +81,7 @@ nav {
   font-weight: 350;
   margin-top: 20px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-} */
+}
 
 .btn-primary {
   background-color: #e74c3c;
@@ -118,6 +101,11 @@ nav {
 }
 
 /* Call to Action */
+.icon-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px auto;
+}
 
 .cta-col {
   box-sizing: border-box;
@@ -127,6 +115,14 @@ nav {
   mix-blend-mode: plus-darker;
   flex-basis: 33%;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+}
+
+.icon-item {
+  flex: 1;
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+  border: 2px #1a1919 solid;
 }
 
 .icon-item:hover {
@@ -269,9 +265,6 @@ footer img {
 }
 .col-3{
   flex-basis: 25%;
-}
-H2{
-  float: left;
 }
 /* queries */
 @media screen and (max-width: 576px) {
