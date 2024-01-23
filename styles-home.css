@@ -427,12 +427,8 @@ div >a{
 .footer-item-container{
   display: flex;
   justify-content:space-between;
-  padding-right: 200px;
-  border-bottom: #f4f0f0 1px solid;
 
-}
-.footer-item{
-  margin:20px 20px;
+
 }
 .footer-icon {
   width: 30px;
@@ -457,7 +453,8 @@ footer a {
   text-decoration: none;
 }
 .copyright{
-  color:#f4f4f4
+  color:#f4f4f4;
+  border-top: #f4f0f0 1px solid;
 }
 footer a:hover {
   text-decoration: underline;
