@@ -34,6 +34,7 @@
 }
 input {
   font-size: 18px;
+  font-style: italic;
   padding: 5px;
   position: absolute;
   right: 0;
@@ -43,14 +44,15 @@ input {
   position: absolute;
   bottom: 0;
   right: 10px;
-  margin-top: 25%;
+  /*margin-top: 25%;*/
+  padding-bottom: 5px;
 }
 .search-icon > img {
   width: 25px;
 }
 
 .search-icon:hover {
-  color: #333333 !important;
+  zoom: 1.1;
 }
 
 /* banner */
@@ -66,14 +68,12 @@ input {
   margin: auto;
 }
 .banner-text {
+  position: absolute;
   display: inline-block;
-  color: #eff0f2;
+  color: #f4f4f4;
   width: 30%;
   padding: 20px;
-  text-align: justify;
-  position: absolute;
-  left: 20px;
-  top: 20px;
+  text-align: left;
 }
 
 .banner-text > h3 {
@@ -91,6 +91,24 @@ input {
   margin-top: 20px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
+
+.btn-primary {
+  background-color: #e74c3c;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.btn-primary:hover {
+  background: #fc0101;
+  font-weight: bold;
+  border: #f4f4f4 1px solid;
+  cursor: pointer;
+}
+
 /* footer */
 .footer-container {
   width: 100%;
@@ -99,7 +117,7 @@ input {
   justify-content: space-between;
   padding-top: 40px;
   margin: 0 auto;
-  border:#f4f4f4 3px solid;
+  border:#f4f4f4 1px solid;
 }
 .footer-item-container{
   display: flex;
@@ -119,7 +137,7 @@ input {
 div > h5 {
   font-weight: 400;
   font-size: 20px;
-  line-height: 122%;
+  line-height: 125%;
   color: #e74c3c;
 }
 footer a {
@@ -134,7 +152,7 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
-/*         <div class="copyright border-top border-light border-3">
+/*         <div class="copyright border-top border-light">
             <p class="copyright-text container">
                 &copy;2024 HAMK Static Web Development by Team 13. Icons by
                 <a target="_blank" href="https://icons8.com">Icons8</a
