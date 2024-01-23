@@ -11,6 +11,11 @@ body {
   position: relative;
 }
 
+.main-page{
+  display: flex;
+  flex-direction: column;
+}
+
 a {
   text-decoration: auto;
 }
@@ -78,6 +83,14 @@ nav a:hover {
 {
   padding-left: initial;
 }
+.icon-container {
+  margin:20px auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 
 /* media query */
 @media (max-width: 576px) {
