@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>T13_News_Page</title>
+    <link rel="stylesheet" href="styles-header-footer.css" />
     <link rel="stylesheet" href="styles-news.css">  
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -17,7 +18,7 @@
         <div class="header-container border-5 border-bottom align-content-center fs-5 fw-bold text-dark">
             <!-- logo -->
             <div class="logo-container">
-                <img src="./img/logo.png" alt="logo" />
+                <img src="./img/logo.png" alt="logo"/>
             </div>
             <!-- navi -->
             <div class="nav-container">
@@ -74,7 +75,7 @@
                                         type="text"
                                         class="search-input"
                                         placeholder="Search"
-                                        name=""
+                                        name="search"
                                     />
                                     <a href="#" class="search-icon">
                                     <img src="img/icons8-search.png" alt="" />
@@ -144,6 +145,7 @@
                     <!--Main News layout-->
                 <div class="news-container d-flex-column full-container">
                       <!--Section: News of the day-->
+<<<<<<< HEAD
                       <div class="news-items border-bottom">
                       
                         <div class="col-6 news-img">
@@ -161,6 +163,46 @@
                                 style="background-color: rgba(251, 251, 251, 0.15)"
                               ></div>
                             </a>
+=======
+                      <section class="border-bottom pb-4 mb-5">
+                        <div class="row news-box">
+                          <div class="col-md-6 mb-4">
+                            <div
+                              class="bg-image hover-overlay ripple shadow-2-strong rounded-5"
+                              data-mdb-ripple-color="light"
+                            >
+                              <img
+                                src="https://www.ford.fi/content/dam/guxeu/nextgen/cx740s/adventure/Adventure_16_CX740S_Int_Beauty_Cockpit_1920x1080_16x9.jpg"
+                                class="img-fluid" alt=""
+                              />
+                              <a href="#!">
+                                <div
+                                  class="mask"
+                                  style="background-color: rgba(251, 251, 251, 0.15)"
+                                ></div>
+                              </a>
+                            </div>
+                          </div>
+
+                          <div class="col-md-6 mb-4">
+                            <span class="badge bg-danger px-2 py-1 shadow-1-strong mb-3"
+                              >News of the day</span
+                            >
+                            <h4><strong>Facilis consequatur eligendi</strong></h4>
+                            <p class="text-muted">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                              Facilis consequatur eligendi quisquam doloremque vero ex
+                              debitis veritatis placeat unde animi laborum sapiente illo
+                              possimus, commodi dignissimos obcaecati illum maiores
+                              corporis.
+                            </p>
+                            <button
+                              type="button"
+                              class="btn btn-primary bg-danger btn-outline-light"
+                            >
+                              Read more
+                            </button>
+>>>>>>> 5e061caa9731c16ad122c68c1fa4ff3115b8936f
                           </div>
                         </div>
   
@@ -196,12 +238,8 @@
                               <!-- Featured image -->
                               <div
                                 class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
-                                data-mdb-ripple-color="light"
-                              >
-                                <img
-                                  src="https://plus.unsplash.com/premium_photo-1663047616905-5bdff3c06010?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                  class="img-fluid"
-                                />
+                                data-mdb-ripple-color="light">
+                                <img src="https://plus.unsplash.com/premium_photo-1663047616905-5bdff3c06010?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid" alt = ""/>
                                 <a href="#!">
                                   <div
                                     class="mask"
@@ -616,9 +654,7 @@
                       <nav class="my-4" aria-label="...">
                         <ul class="pagination pagination-circle justify-content-center">
                           <li class="page-item">
-                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true"
-                              >Previous</a
-                            >
+                            <a class="page-link" href="#" tabindex="-1">Previous</a>
                           </li>
                           <li class="page-item"><a class="page-link" href="#">1</a></li>
                           <li class="page-item active" aria-current="page">
@@ -692,7 +728,7 @@
           </div>
       </div>
       <div class="copyright p-3">
-          &copy 2024 HAMK Static Web Development by Team 13. Icons by
+          &copy;2024 HAMK Static Web Development by Team 13. Icons by
           <a target="_blank" href="https://icons8.com"><i>Icons8</i></a
           >. All rights reserved.
       </div>

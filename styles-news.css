@@ -395,9 +395,10 @@ label {
 .footer-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evently;
   padding-top: 40px;
-  margin: auto;
+  padding: left 30px;
+  margin: 0 auto;
   border:#f4f4f4 3px solid;
 }
 .footer-item-container{
