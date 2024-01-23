@@ -404,7 +404,6 @@ label {
 .footer-item-container{
   display: flex;
   justify-content: space-between;
-  border-bottom: #f4f0f0 1px solid;
   padding-right: 200px;
 
 }
