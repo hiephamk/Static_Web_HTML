@@ -198,11 +198,16 @@ div >a{
 }
 .label-1{
   position: absolute;
+  text-align:center;
+  padding-top: 150px;
+  font-size: 24px;
+  font-weight: 500;
   bottom: 0px;
   left:0px;
   right: 0px;
   width:100%;
-  height:500px;
+  height:300px;
+  color:#e74c3c;
   opacity: 0;
 }
 /* expand */
@@ -232,11 +237,16 @@ div >a{
 }
 .label-2{
   position: absolute;
+  text-align:center;
+  padding-top: 150px;
+  font-size: 24px;
+  font-weight: 500;
   bottom: 0px;
   left:0px;
   right: 0px;
-  height: 500px;
-  text-align: center;
+  width:100%;
+  height:300px;
+  color:#e74c3c;
   opacity: 0;
 }
 /* expand */
@@ -267,12 +277,16 @@ div >a{
 }
 .label-3{
   position: absolute;
+  text-align:center;
+  padding-top: 150px;
+  font-size: 24px;
+  font-weight: 500;
   bottom: 0px;
   left:0px;
   right: 0px;
   width:100%;
-  height:500px;
-  text-align: center;
+  height:300px;
+  color:#e74c3c;
   opacity: 0;
 }
 /* expand */
@@ -329,7 +343,7 @@ div >a{
 #ck:checked ~ .sm {
   display: none;
 }
-label {
+.sm,.sl {
   display: inline-block;
   border-radius: 5px;
   cursor: pointer;
