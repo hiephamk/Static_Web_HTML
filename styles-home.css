@@ -12,6 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  width: 100%;
 }
 /* Header - banner */
 .header-container {
@@ -398,7 +399,7 @@ label {
   flex-direction: column;
   justify-content: space-between;
   padding-top: 40px;
-  margin: auto;
+  margin: 0 auto;
   border:#f4f4f4 3px solid;
 }
 .footer-item-container{
@@ -429,7 +430,7 @@ div > h5 {
   line-height: 122%;
   color: #e74c3c;
 }
-footer a {
+footer > a {
   color: #f4f4f4;
   text-decoration: none;
 }
@@ -464,11 +465,5 @@ footer a {
   .accessory-container {
     margin: auto;
     width: 80%;
-  }
-}
-@media screen and (max-width: 576px) {
-  .footer-container {
-    flex-direction: column;
-    margin: auto;
   }
 }
