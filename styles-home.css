@@ -384,11 +384,16 @@ div >a{
   text-align: center;
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 10px;
 }
 .discovery-item {
   display: flex;
   justify-content: space-evenly;
   margin: auto;
+}
+.discovery-text {
+  color:#e74c3c;
+  margin-left: -15px;
 }
 .item-img {
   position: relative;
