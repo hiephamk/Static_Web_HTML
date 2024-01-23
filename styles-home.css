@@ -391,10 +391,7 @@ div >a{
   justify-content: space-evenly;
   margin: auto;
 }
-.discovery-text {
-  color:#e74c3c;
-  margin-left: -15px;
-}
+
 .item-img {
   position: relative;
   width: 100%;
@@ -416,6 +413,7 @@ div >a{
   margin: auto 0;
   transition: all 0.5s;
   opacity: 0;
+  text-shadow: 0px 4px 4px #333333;
 }
 .item-img:hover .item-text {
   opacity: 1;
@@ -432,8 +430,6 @@ div >a{
 .footer-item-container{
   display: flex;
   justify-content:space-between;
-
-
 }
 .footer-icon {
   width: 30px;
@@ -461,9 +457,33 @@ footer a {
   color:#f4f4f4;
   border-top: #f4f0f0 1px solid;
 }
+
 footer a:hover {
   text-decoration: underline;
 }
+
+.discovery-text {
+  color:#e74c3c;
+  margin-left: -15px;
+}
+
+.label-1, .label-2, .label-3 {
+  color: #f4f4f4;
+  text-shadow: #000000 0px 0px 10px;
+}
+
+.text-left-1 {
+  color:#e74c3c;
+}
+
+.text-left-2 {
+  color: #a5be7b;
+}
+
+.text-left-3 {
+  color: #716965;
+}
+
 /* media query */
 @media (max-width: 576px) {
   .newcar-container, .icon-container, .expand-block {
