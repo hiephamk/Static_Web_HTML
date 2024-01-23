@@ -402,7 +402,7 @@ label {
 }
 .footer-item-container{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   border-bottom: #f4f0f0 1px solid;
 
 }
