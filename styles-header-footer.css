@@ -62,8 +62,8 @@ body {
   position: relative;
   justify-items: baseline;
 }
-input {
-  font-size: 14.5px;
+.search-input {
+  font-size: 18px;
   font-style: italic;
   padding: 5px;
   position: absolute;
@@ -79,7 +79,7 @@ input {
   width: 25px;
 }
 .search-icon:hover {
-  color: #333333 !important;
+  zoom: 1.1;
 }
 
 /* Banner */
