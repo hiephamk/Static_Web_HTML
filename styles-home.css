@@ -437,7 +437,7 @@ footer > a {
 .copyright{
   color:#f4f4f4
 }
-footer a:hover {
+footer > a:hover {
   text-decoration: underline;
 }
 /* media query */
