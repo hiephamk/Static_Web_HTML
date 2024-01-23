@@ -437,6 +437,9 @@ footer > a {
 .copyright{
   color:#f4f4f4
 }
+footer a:hover {
+  text-decoration: underline;
+}
 /* media query */
 @media (max-width: 576px) {
   .newcar-container, .icon-container, .expand-block {
