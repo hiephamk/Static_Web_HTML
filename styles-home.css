@@ -441,7 +441,6 @@ div >a{
 .footer-icon {
   width: 30px;
   height: auto;
-  padding: 0;
 }
 .footer-text {
   font-weight: 400;
@@ -460,9 +459,9 @@ footer a {
   color: #f4f4f4;
   text-decoration: none;
 }
-.copyright{
+.copyright-text{
+  padding-top:15px;
   color:#f4f4f4;
-  border-top: #f4f0f0 1px solid;
 }
 footer a:hover {
   text-decoration: underline;
