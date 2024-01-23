@@ -4,7 +4,7 @@
 
 html,
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 .full-page {
@@ -129,15 +129,14 @@ ul > li {
 .main-page{
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
 }
 .icon-container {
-  margin:20px auto;
+  margin: 20px auto;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  
-
 }
 .cta-col{
   box-sizing: border-box;
@@ -167,7 +166,7 @@ div >a{
   flex-direction: column;
   justify-content: space-evenly;
   width: 100%;
-  margin: 20px auto;
+  margin: 0px auto;
   align-items: center;
   position: relative;
   overflow: hidden;
@@ -321,6 +320,7 @@ div >a{
   margin: 20px auto;
   display: flex;
   justify-content: space-evenly;
+  padding-top: 10px;
 }
 .newcar-img {
   flex: 1;
@@ -356,12 +356,20 @@ div >a{
   display: inline-block;
   border-radius: 5px;
   cursor: pointer;
-  color: #e4f0a0;
+  color: #ffffff;
   background-color: #e74c3c;
   padding: 10px;
   margin-top: 10px;
-  font-size: 18px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
+.sm:hover, .sl:hover {
+  background: #fc0101;
+  font-weight: bold;
+  border: #f4f4f4 1px solid;
+  cursor: pointer;
+}
+
 .hide-text {
   display: none;
 }
@@ -457,7 +465,7 @@ div > h1 {
   justify-content: space-between;
   padding-top: 40px;
   margin: 0 auto;
-  border:#f4f4f4 3px solid;
+  padding-left: -30px;
 }
 .footer-item-container{
   display: flex;
