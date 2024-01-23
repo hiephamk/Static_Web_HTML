@@ -18,7 +18,7 @@ body {
   height: max-content;
   position: relative;
   color: #333333;
-  margin: 20px auto;
+  margin: auto;
 }
 
 div > a {
@@ -59,6 +59,9 @@ nav {
 }
 
 /* Banner */
+.banner-container {
+  background-image: url("img/banner-products.png");
+}
 
 .banner-text {
   display: inline-block;
@@ -218,6 +221,7 @@ footer img {
   width: 100%;
   margin: auto;
   margin-left: 10px;
+  margin-bottom: 20px;
 }
 
 .product-items {
