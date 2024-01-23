@@ -298,7 +298,7 @@ div >a{
   width:100%;
   height:300px;
   color:#e74c3c;
-  opacity: 1;
+  opacity: 0;
   cursor: pointer;
 }
 /* expand */
@@ -394,10 +394,7 @@ div >a{
   justify-content: space-evenly;
   margin: auto;
 }
-.discovery-text {
-  color:#e74c3c;
-  margin-left: -15px;
-}
+
 .item-img {
   position: relative;
   width: 100%;
@@ -412,13 +409,14 @@ div >a{
   width: 100%;
   text-align: center;
   background-color: rgba(239, 238, 238, 0.6);
-  color: #e74c3c;
+  color: #333333;
   font-weight: bold;
   font-size: 24px;
   padding: 15px;
   margin: auto 0;
   transition: all 0.5s;
   opacity: 0;
+  text-shadow: 0px 4px 4px #ffffff;
 }
 .item-img:hover .item-text {
   opacity: 1;
@@ -435,8 +433,6 @@ div >a{
 .footer-item-container{
   display: flex;
   justify-content:space-between;
-
-
 }
 .footer-icon {
   width: 30px;
@@ -463,9 +459,43 @@ footer a {
   padding-top:15px;
   color:#f4f4f4;
 }
+
 footer a:hover {
   text-decoration: underline;
 }
+
+.discovery-text {
+  color:#e74c3c;
+  margin-left: -15px;
+}
+
+.label-1, .label-2, .label-3 {
+  color: #f4f4f4;
+  text-shadow: #000000 0px 0px 10px;
+}
+
+.text-left-1 {
+  color:#e74c3c;
+}
+
+.text-left-2 {
+  color: #a5be7b;
+}
+
+.text-left-3 {
+  color: #716965;
+}
+
+div > h1 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 39px;
+  color: #333333;
+  text-align: center;
+  padding-top: 20px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 /* media query */
 @media (max-width: 576px) {
   .newcar-container, .icon-container, .expand-block {
