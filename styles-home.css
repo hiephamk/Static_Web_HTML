@@ -403,7 +403,7 @@ label {
 .footer-item-container{
   display: flex;
   justify-content:space-between;
-  padding-right: 40px;
+  padding-right: 200px;
   border-bottom: #f4f0f0 1px solid;
 
 }
