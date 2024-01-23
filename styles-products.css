@@ -270,6 +270,9 @@ footer img {
 .col-3{
   flex-basis: 25%;
 }
+H2{
+  float: left;
+}
 /* queries */
 @media screen and (max-width: 576px) {
   footer-container {
