@@ -322,6 +322,12 @@ div >a{
 #ck:checked ~ .hide-text {
   display: block;
 }
+#ck:checked ~ .sl {
+  display: block;
+}
+#ck:checked ~ .sm {
+  display: none;
+}
 label {
   display: inline-block;
   border-radius: 5px;
@@ -340,6 +346,12 @@ label {
   display: none;
 }
 #ch:checked ~ .hide-text {
+  display: block;
+}
+#ch:checked ~ .sm {
+  display: none;
+}
+#ch:checked ~ .sl {
   display: block;
 }
 
