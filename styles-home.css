@@ -458,6 +458,9 @@ footer > a {
 .copyright{
   color:#f4f4f4
 }
+.copyright >a{
+  color:#f4f4f4
+}
 footer > a:hover {
   text-decoration: underline;
 }
