@@ -435,6 +435,27 @@ footer a {
 .copyright{
   color:#f4f4f4
 }
+/* news container */
+.news-container{
+  width: 100%;
+  margin: auto;
+}
+.news-items{
+  box-sizing: border-box;
+  width: 100%;
+  margin:10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.news-img{
+  box-sizing: border-box;
+  width: 100%;
+  margin:auto;
+  padding-right: 15px;
+}
+.news-text{
+  padding-left: 15px;
+}
 /* media query */
 @media (max-width: 576px) {
   .newcar-container, .icon-container, .expand-block {
