@@ -91,3 +91,53 @@ input {
   margin-top: 20px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
+/* footer */
+.footer-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 40px;
+  margin: 0 auto;
+  border:#f4f4f4 3px solid;
+}
+.footer-item-container{
+  display: flex;
+  justify-content:space-between;
+}
+.footer-icon {
+  width: 30px;
+  height: auto;
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 14.5px;
+  line-height: 24px; /* or 166% */
+  color: #f4f4f4;
+  padding: 10px;
+}
+div > h5 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 122%;
+  color: #e74c3c;
+}
+footer a {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+.copyright-text{
+  padding-top:15px;
+  color:#f4f4f4;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+/*         <div class="copyright border-top border-light border-3">
+            <p class="copyright-text container">
+                &copy;2024 HAMK Static Web Development by Team 13. Icons by
+                <a target="_blank" href="https://icons8.com">Icons8</a
+                >. All rights reserved.
+            </p>
+        </div> */
