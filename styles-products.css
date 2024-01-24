@@ -279,6 +279,9 @@ footer img {
     display: flex;
     flex-direction: column;
   }
+  .item-box{
+    width: 100%;;
+  }
 
   .banner-text, .cta-col {
     width: 100%;
