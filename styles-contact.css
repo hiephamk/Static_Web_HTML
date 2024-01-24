@@ -45,6 +45,7 @@ ul > li {
   list-style: none;
   padding: 10px;
 }
+
 /* Header - banner */
 .header-container {
   display: flex;
