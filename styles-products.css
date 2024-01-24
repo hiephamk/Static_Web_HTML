@@ -59,15 +59,15 @@ nav {
 }
 
 /* Banner */
-.banner-container {
-  background-image: url("img/banner-products.png");
+.banner-items{
+  position: relative;
 }
-
 .banner-text {
-  display: inline-block;
+  position: absolute;
   width: 30%;
   padding: 20px;
   text-align: justify;
+  
 }
 
 .banner-text h3 {
