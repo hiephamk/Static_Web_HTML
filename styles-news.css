@@ -484,18 +484,35 @@ section{
   color: #333333;
   text-shadow: none;
 }
+.news-items{
+  display: flex;
+}
+.news-text{
+  flex-basis: 70%;
+}
 
 /* media query */
-@media (max-width: 576px) {
-  .newcar-container, .icon-container, .expand-block {
-    display: flex;
-    flex-direction: column;
-  }
-}
+
 @media (max-width: 576px) {
   .banner-container {
     width: 100%;
     height: 100vh;
+  }
+  .news-items{
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    margin: auto;
+  }
+  .news-img{
+    width: 100%;
+    margin:0 0 0 5px;
+
+  }
+  .news-text{
+    width: 100%;
+    margin:0 0 6px 0;
+    text-align: justify;
   }
 }
 @media (max-width: 576px) {
@@ -521,3 +538,4 @@ section{
     margin: auto;
   }
 }
+

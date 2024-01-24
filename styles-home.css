@@ -513,10 +513,21 @@ footer a:hover {
 
 /* media query */
 @media (max-width: 576px) {
-  .newcar-container, .icon-container, .expand-block {
+  .newcar-container, .icon-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .expand-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .expand-block > img{
+    width: 100%;
+  }
+  .expand-block > .col-6{
+    width: 100%;
   }
 }
 @media (max-width: 576px) {
