@@ -55,12 +55,11 @@ ul > li {
   margin: 0 auto;
 }
 .logo-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 35px;
+  flex: 1;
+  width: 30px;
+  margin: 0 100px;
+  padding: 10px;
 }
-
 .logo-container > img {
   width: 150px;
 }
