@@ -293,34 +293,6 @@ div >a{
   display: none;
 }
 
-
-
-
-/* new cars */
-.newcar-container {
-  text-align: center;
-  margin: 20px auto;
-  display: flex;
-  justify-content: space-evenly;
-}
-.newcar-img {
-  flex: 1;
-}
-.newcar-img-ver {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 25%;
-}
-.img-1 {
-  flex-basis: 50%;
-}
-.newcar-text {
-  flex: 1;
-  padding: 30px;
-  text-align: justify;
-  align-items: center;
-}
-
 #ck {
   display: none;
 }
@@ -360,7 +332,7 @@ label {
   display: block;
 }
 
-.Discovery-container {
+/* .Discovery-container {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -396,7 +368,7 @@ label {
 }
 .item-img:hover .item-text {
   opacity: 1;
-}
+} */
 .footer-container {
   width: 100%;
   display: flex;
@@ -447,7 +419,7 @@ footer a:hover {
 .news-items{
   box-sizing: border-box;
   width: 100%;
-  margin:10px auto;
+  margin:auto;
   display: flex;
   justify-content: space-between;
 }
@@ -460,7 +432,9 @@ footer a:hover {
 .news-text{
   padding-left: 15px;
 }
-
+section{
+  margin:20px auto;
+}
 .mb-4 {
   margin-bottom: 1rem !important;
 }

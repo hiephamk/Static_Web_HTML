@@ -144,6 +144,7 @@ ul > li {
 .cta-col{
   box-sizing: border-box;
   border: #333333 1px solid;
+  flex-basis: 33%;
   width: 80%;
   margin: 7px;
   cursor: pointer;
