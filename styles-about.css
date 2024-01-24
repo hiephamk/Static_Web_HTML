@@ -243,6 +243,24 @@ footer img {
   margin-left: -15px;
 }
 
+.main-page {
+  width: 100%;
+  height: max-content;
+  position: relative;
+  color: #f4f4f4;
+  margin: auto;
+}
+
+.article-box {
+  background-color: #ffffff;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+
 
 /* Media queries */
 @media screen and (max-width: 576px) {
