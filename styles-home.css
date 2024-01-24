@@ -144,12 +144,16 @@ ul > li {
   width: 80%;
   margin: 7px;
   cursor: pointer;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
 }
 
 .cta-col:hover{
-  background:#e74c3c
+  background:#e74c3c;
+  border: #e74c3c 1px solid;
+  filter: drop-shadow(0px 4px 4px #333333);
+  cursor: pointer;
 }
-.cta-col:hover h1 {
+.cta-col:hover h2 {
   color: #f4f4f4;
 }
 
@@ -159,6 +163,8 @@ ul > li {
 }
 div >a{
   color:#333333;
+  padding-top: 20px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 /* accessory */
 .accessory-container {

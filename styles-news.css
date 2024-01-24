@@ -122,14 +122,13 @@ ul > li {
   display: flex;
   flex-direction: column;
 }
+
 .icon-container {
-  margin:20px auto;
+  margin: 20px auto;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  
-
 }
 .cta-col{
   box-sizing: border-box;
@@ -137,12 +136,16 @@ ul > li {
   width: 80%;
   margin: 7px;
   cursor: pointer;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
 }
 
 .cta-col:hover{
-  background:#e74c3c
+  background:#e74c3c;
+  border: #e74c3c 1px solid;
+  filter: drop-shadow(0px 4px 4px #333333);
+  cursor: pointer;
 }
-.cta-col:hover h1 {
+.cta-col:hover h2 {
   color: #f4f4f4;
 }
 
@@ -152,6 +155,8 @@ ul > li {
 }
 div >a{
   color:#333333;
+  padding-top: 20px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 /* accessory */
 .accessory-container {
@@ -393,22 +398,17 @@ label {
   opacity: 1;
 }
 .footer-container {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evently;
+  justify-content: space-between;
   padding-top: 40px;
-  padding: left 30px;
   margin: 0 auto;
-  border:#f4f4f4 3px solid;
+  padding-left: -30px;
 }
 .footer-item-container{
   display: flex;
   justify-content: space-between;
-  padding-right: 200px;
-
-}
-.footer-item{
-  margin:20px 20px;
 }
 .footer-icon {
   width: 30px;
@@ -432,8 +432,12 @@ footer a {
   color: #f4f4f4;
   text-decoration: none;
 }
-.copyright{
-color:#f4f4f4
+.copyright-text{
+  padding-top:15px;
+  color:#f4f4f4;
+}
+footer a:hover {
+  text-decoration: underline;
 }
 /* news container */
 .news-container{
@@ -443,7 +447,7 @@ color:#f4f4f4
 .news-items{
   box-sizing: border-box;
   width: 100%;
-  margin:10px auto;
+  /*margin:10px auto;*/
   display: flex;
   justify-content: space-between;
 }
@@ -456,6 +460,57 @@ color:#f4f4f4
 .news-text{
   padding-left: 15px;
 }
+
+.mb-4 {
+  margin-bottom: 1rem !important;
+}
+
+.my-4 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.btn-primary {
+  background-color: #e74c3c;
+  color: #ffffff;
+  text-align: center;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.btn-primary:hover {
+  background: #fc0101;
+  font-weight: bold;
+  border: #f4f4f4 1px solid;
+  cursor: pointer;
+}
+
+.page-link {
+  color: #f4f4f4;
+  border: 1px solid #e74c3c;
+  border-radius: 5px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.page-item.active .page-link {
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+}
+
+.page-item a {
+  color: #333333;
+}
+
+.page-item a:hover {
+  color: #e74c3c;
+}
+
+.col-9, .text-dark {
+  color: #333333;
+  text-shadow: none;
+}
+
 /* media query */
 @media (max-width: 576px) {
   .newcar-container, .icon-container, .expand-block {

@@ -102,21 +102,22 @@ input {
 
 .full-container {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Chia container thành 2 cột với kích thước bằng nhau */
-  align-items: start; /* Căn chỉnh các items ở đầu mỗi cột */
+  justify-content: center;
+  width: 90%;
+  margin: auto; /* Căn giữa container */
 }
 
-.full-container {
+/*.full-container {
   max-width: 1300px; /* Hoặc kích thước tối đa phù hợp với thiết kế của bạn */
-  margin: auto; /* Căn giữa container */
   /* Định nghĩa grid và các thuộc tính khác */
+  /*grid-template-columns: 1fr 1fr; /* Chia container thành 2 cột với kích thước bằng nhau *
+  align-items: start; /* Căn chỉnh các items ở đầu mỗi cột *
 }
 
 
 .banner {
-  grid-column: 1 / -1; /* Banner sẽ kéo dài từ cột đầu tiên đến cột cuối cùng */
-}
-
+  grid-column: 1 / -1; /* Banner sẽ kéo dài từ cột đầu tiên đến cột cuối cùng *
+}*/
 
 .content {
   display: flex;
@@ -190,7 +191,7 @@ div > h1 {
   background: #333333;
   margin: 0 auto;
   padding-top: 40px;
-  padding-left: 30px;
+  padding-left: 0px;
 }
 
 footer a {
@@ -286,6 +287,9 @@ footer img {
   margin-bottom: 70px;
 }
 
+.mt-5 {
+  margin-bottom: 20px;
+}
 
 /* Media Queries */
 @media screen and (max-width: 576px) {
@@ -293,12 +297,13 @@ footer img {
     flex-direction: column;
     margin: auto;
   }
-}
+
 
 .grid-full-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Cột sẽ tự điều chỉnh dựa trên kích thước màn hình */
   /* Các thuộc tính grid khác */
+}
 }
 
 @media (max-width: 768px) {
@@ -326,4 +331,3 @@ footer img {
   max-width: 100%; /* Đảm bảo ảnh không vượt quá kích thước của flex-item */
   height: auto; /* Giữ nguyên tỉ lệ của ảnh */
 }
-

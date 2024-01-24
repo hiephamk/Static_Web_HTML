@@ -107,51 +107,38 @@ nav {
 /* Call to Action */
 .icon-container {
   display: flex;
+  width: 100%;
   justify-content: space-evenly;
+  align-items: center;
   margin: 20px auto;
 }
 
 .cta-col {
   box-sizing: border-box;
-  display: flex;
-  justify-content: space-evenly;
   border: #333333 1px solid;
-  mix-blend-mode: plus-darker;
   flex-basis: 33%;
+  cursor: pointer;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
 }
 
-.icon-item {
-  flex: 1;
-  width: 100%;
-  margin: auto;
-  box-sizing: border-box;
-  border: 2px #1a1919 solid;
-}
-
-.icon-item:hover {
-  background: #e74c3c;
-  border: #e74c3c 1px solid;
-  filter: drop-shadow(0px 4px 4px #333333);
-  cursor: pointer;
-  
-}
-
-div > h3 {
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 39px;
+.cta-icon > h2 {
   color: #333333;
-  text-align: center;
   padding-top: 20px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.cta-icon:hover h1 {
+.cta-col:hover {
+  background: #e74c3c;
+  border: #e74c3c 1px solid;
+  filter: drop-shadow(0px 4px 4px #333333);
+  cursor: pointer;
+}
+
+.cta-icon:hover h2 {
   color: #f4f4f4;
 }
 
-.icon-item:hover {
+.cta-icon:hover {
   color: #f4f4f4;
   filter: drop-shadow(0px 4px 4px rgb(0, 0, 0));
 }
@@ -160,11 +147,10 @@ div > h3 {
 .footer-container {
   display: flex;
   justify-content: space-evenly;
-  padding: 20px auto;
   background: #333333;
   margin: 0 auto;
   padding-top: 40px;
-  padding-left: 30px;
+  padding-left: 0px;
 }
 
 footer a {
@@ -220,8 +206,8 @@ footer img {
   padding: 20px;
   width: 100%;
   margin: auto;
-  margin-left: 10px;
   margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .product-items {
