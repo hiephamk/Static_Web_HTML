@@ -14,10 +14,11 @@ body {
 }
 
 .body-page {
-  width: 100%;
+  width: 90%;
   height: max-content;
   position: relative;
-  color: #333333;
+  color: #f4f4f4;
+  justify-content: space-between;
   margin: auto;
 }
 
@@ -251,15 +252,17 @@ footer img {
   margin: auto;
 }
 
-.article-box {
-  background-color: #ffffff;
-  justify-content: space-evenly;
+.article-container {
+  background-color: #f4f4f4;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
   width: 100%;
 }
 
+.mb-4 {
+  margin-bottom: 0;
+}
 
 
 /* Media queries */
