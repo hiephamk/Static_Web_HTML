@@ -516,6 +516,7 @@ footer a:hover {
   .newcar-container, .icon-container, .expand-block {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 }
 @media (max-width: 576px) {
