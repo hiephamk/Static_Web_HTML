@@ -447,7 +447,7 @@ footer a:hover {
 .news-items{
   box-sizing: border-box;
   width: 100%;
-  /*margin:10px auto;*/
+  margin:10px auto;
   display: flex;
   justify-content: space-between;
 }
