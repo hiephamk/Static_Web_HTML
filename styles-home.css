@@ -22,6 +22,9 @@ body {
   justify-items: center;
   background-color: #f4f4f4;
   margin: 0 auto;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .logo-container {
   flex: 1;
