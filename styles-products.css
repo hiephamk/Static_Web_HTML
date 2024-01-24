@@ -59,7 +59,7 @@ nav {
 }
 
 /* Banner */
-.banner-items{
+/* .banner-items{
   position: relative;
 }
 .banner-text {
@@ -85,7 +85,7 @@ nav {
   font-weight: 350;
   margin-top: 20px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-}
+} */
 
 .btn-primary {
   background-color: #e74c3c;
