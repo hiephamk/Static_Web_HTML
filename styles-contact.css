@@ -83,8 +83,8 @@ ul > li {
 }
 input {
   font-size: 18px;
-  /*padding: 5px;
-  position: absolute;*/
+  padding: 5px;
+  position: absolute;
   right: 0;
 }
 
