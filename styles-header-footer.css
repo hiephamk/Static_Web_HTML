@@ -79,18 +79,21 @@
   position: relative;
 }
 .banner-text {
-  color: #eff0f2;
+  color: #f4f4f4;
   width: 30%;
   position: absolute;
   left: 20px;
-  top:10px;
+  top: 10px;
+  padding: 20px;
 }
 
 .banner-text > h3 {
   color: #f4f4f4;
   font-size: 2rem;
   font-weight: 700;
+  margin-top: 30px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  text-align: left;
 }
 
 .banner-text p {
@@ -99,7 +102,6 @@
   font-weight: 350;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
-
 
 .btn-primary {
   background-color: #e74c3c;
@@ -268,6 +270,28 @@ footer a:hover {
 
   .banner-text, .cta-col {
     width: 100%;
+  }
+
+  .banner-text > h3 {
+    width: 30%;
+    font-size: 1.2rem;
+    margin-top: 0px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .banner-text p {
+    width: 40%;
+    font-size: 0.8rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .banner-text a {
+    font-size: 0.8rem;
+  }
+
+  .btn-primary {
+    width: 22%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   }
 
   .footer-container, .footer-item-container {

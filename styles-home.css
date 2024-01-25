@@ -360,8 +360,10 @@ div >a{
   cursor: pointer;
   color: #ffffff;
   background-color: #e74c3c;
-  padding: 10px;
-  margin-top: 10px;
+  padding: 5px 10px 5px 10px;
+  margin-top: 5px;
+  text-align: center;
+  border: #ffffff 1px solid;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -543,5 +545,12 @@ footer a:hover {
   .accessory-container {
     margin: auto;
     width: 80%;
+  }
+
+  .sm, .sl {
+    width: 22%;
+    font-size: 0.8rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding: 5px;
   }
 }
