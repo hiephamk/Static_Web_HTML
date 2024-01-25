@@ -56,9 +56,9 @@ ul > li {
 }
 .logo-container {
   flex: 1;
-  width: 30px;
-  margin: 0 100px;
-  padding: 10px;
+}
+.logo-container.alignment {
+  padding-left: 25px;
 }
 .logo-container > img {
   width: 150px;
