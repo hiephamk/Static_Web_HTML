@@ -49,6 +49,14 @@ nav {
   background: transparent;
 }
 
+.logo-container {
+  flex: 1;
+}
+
+.logo-container.alignment {
+  padding-left: 20px;
+}
+
 .navbar-logo:hover {
   filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.3));
   zoom: 1.1;
