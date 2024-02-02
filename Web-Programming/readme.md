@@ -20,16 +20,19 @@ The website will serve as a comprehensive product showcase platform for a car pr
 
 In this section, list and describe the features or functionality that you are working on. You can use checkboxes to track the progress of each feature.
 
-- [ ] Feature 1 (Full Name): Adding a match (filter) 
-- [ ] Feature 2 (Full Name): Feedback & suggestion (form)
-- [ ] Feature 3 (Full Name): Voting options (rate, review)
-- [ ] Feature 1 (Full Name): Display cars on sales 
-- [ ] Feature 2 (Full Name): Social media chat
-- [ ] Feature 3 (Full Name): Search 
+- [ ] Feature 1 (Full Name): Adding a match (filter) for product page
+- [ ] Feature 2 (Full Name): Feedback & suggestion (form)  for Contact page
+- [ ] Feature 3 (Full Name): Voting options (rate, review - only for members) for product page
+- [ ] Feature 4 (Full Name): Member registration 
+- [ ] Feature 5 (Full Name): Display cars on sales for Home, product and news pages
+- [ ] Feature 6 (Full Name): Login and update profile 
+- [ ] Feature 7 (Full Name): Search - in header of all pages (optional)
 
 ### Feature 1
 
-Include more detailed information about Feature 1 here. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
+Include more detailed information about Feature 1 here. 
+- Provide links to related code files (github): Ex: ### Github/project13/Feature1.php
+- Link to the feature (shell.hamk.fi): Ex: ### shell.hamk.fi/~member1/Feature1.php
 
 ### Feature 2
 
