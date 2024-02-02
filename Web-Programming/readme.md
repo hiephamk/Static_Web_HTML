@@ -5,7 +5,7 @@ The website will serve as a comprehensive product showcase platform for a car pr
 ## Members:
 1. Huynh Van Hiep
 2. Vu Quang Dan
-3. Tran Huynh An Duy
+3. Tran Huynh An Duy (Andy)
 4. Nguyen Dinh Khanh Chi
 
 ## Table of Contents
@@ -48,9 +48,10 @@ Include more detailed information about Feature 3 here. Provide links to related
 
 List the database tables that are part of your project. 
 
-- Table 1 (Created By): Table Name 
-- Table 2 (Created By): Table Name 
-- Table 3 (Created By): Table Name 
+- Table 1 (Created By Chi): Product 
+- Table 2 (Created By Hiep): Member
+- Table 3 (Created By Andy): News 
+- Table 4 (Created By Dan): Feedback
 
 > Include the ER Diagram of the database. 
 
