@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T13 Products Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous">
+      <link href="styles-products.css" rel="stylesheet">
+      <link href="styles-header-footer.css" rel="stylesheet">
+
+  </head>
+
+  <body class="d-flex-column">
+    <!-- Header -->
+    <div
+      class="header-container align-content-center fs-5 fw-bold text-dark"
+    >
+      <div class="logo-container alignment">
+        <img src="./img/logo.png" alt="logo">
+      </div>
+      <div class="nav-container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <!-- <a class="nav-link active" href="#">Home</a> -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse nav-item"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="Products.html"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Products
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#Electric">Electric Cars</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#SUV">SUV Cars</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#Sedan">Sedan Cars</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Accessories</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="News.html">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+              </ul>
+              <div class="search">
+                <input
+                  type="text"
+                  class="search-input"
+                  placeholder="Search"
+                  name="Search">
+                <a href="#" class="search-icon">
+                  <img src="img/icons8-search.png" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Body -->
+    <div class="body-page d-flex-column container">
+      <!-- Banner -->
+      <div class="banner-items container">
+        <div class="banner-img">
+          <img src="./img/banner-products.png" alt="" class="img-fluid">
+        </div>
+        <div class="banner-text">
+          <h3>YOUR IDEAL CAR NOW AVAILABLE!</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, cum
+            a. Voluptatibus delectus enim earum amet.
+          </p>
+          <a class="btn btn-primary" href="Products.html" role="button"
+            >View more</a
+          >
+        </div>
+      </div>
+      <!-- Main page -->
+      <div class="d-flex-column main-page">
+        <!-- Call to Action -->
+        <div class="icon-container container">
+          <div class="cta-col col-4">
+            <div class="cta-icon text-center">
+              <img
+                class="img-fluid"
+                style="width: 80px; height: 80px"
+                src="./img/icons8-play.png"
+                alt="Video">
+              <a href="https://www.youtube.com/watch?v=fdGWRq1dVBA" target="blank">
+                <h2>Watch videos</h2>
+              </a>
+            </div>
+          </div>
+          <div class="cta-col col-4">
+            <div class="cta-icon text-center">
+              <img
+                class="img-fluid"
+                style="width: 80px; height: 80px"
+                src="./img/icons8-find.png"
+                alt="">
+              <a href="Products.html" target="blank">
+                <h2>Find spare parts</h2>
+              </a>
+            </div>
+          </div>
+          <div class="cta-col col-4">
+            <div class="cta-icon text-center">
+              <img
+                class="img-fluid"
+                style="width: 80px; height: 80px"
+                src="./img/icons8-write.png"
+                alt="">
+              <a href="Contact.html" target="blank">
+                <h2>Become our partner</h2>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product list -->
+      <div class="product-container container">
+        <!-- Section: Electric Car -->
+        <section class="container"> 
+          <div class="row gx-lg-5 product-items container">
+            <!-- Card Title -->
+            <div class="row text-dark" id="Electric">
+              <h2>ELECTRIC CARS</h2>
+              <div
+                class="divider border-3 border-dark border-bottom align=left"
+              ></div>
+            </div>
+            <!-- Column 1 -->
+            <div class=" col-3 item-box ">
+              <a href="#" class="text-box">
+                <img
+                  class="img-fluid"
+                  src="img/ecar-iXM60.png"
+                  alt="Product_1">
+                <h3>T13 iX M60</h3>
+                <h6>Electric car</h6>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur elit. Voluptatibus
+                  delectus enim earum amet.
+                </p>
+              </a>
+            </div>
+            <!-- Column 2 -->
+            <div class=" col-3 item-box">
+              <a href="#" class="text-box">
+                <img class="img-fluid" src="img/ecar-iX.png" alt="Product_2">
+                <h3>T13 iX</h3>
+                <h6>Electric car</h6>
+                <p>
+                  Nihil laudantium at ducimus officiis tenetur. Inventore,
+                  cupiditate autem eius nemo.
+                </p>
+              </a>
+            </div>
+            <!-- Column 3 -->
+            <div class=" col-3 item-box">
+              <a href="#" class="text-box">
+                <img class="img-fluid" src="img/ecar-i7.png" alt="Product_3">
+                <h3>T13 i7</h3>
+                <h6>Electric car</h6>
+                <p>
+                  Numquam est voluptatum suscipit inventore dolorem veritatis,
+                  quidem obcaecati dolorum vitae.
+                </p>
+              </a>
+            </div>
+            <!-- Column 4 -->
+            <div class=" col-3 item-box">
+              <a href="#" class="text-box">
+                <img
+                  class="img-fluid"
+                  src="img/ecar-i7M70.png"
+                  alt="Product_4">
+                <h3>T13 i7 M70</h3>
+                <h6>Electric car</h6>
+                <p>
+                  Odio quod eius expedita possimus provident aut repellat fuga.
+                  Autem reiciendis provident obcaecati cum.
+                </p>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section: SUV -->
+        <section class="container">
+          <div class="row gx-lg-5 product-items container">
+            <!-- Card Title -->
+            <div class="row text-dark" id="SUV">
+              <h2>SUV</h2>
+              <div
+                class="divider border-3 border-dark border-bottom align=left"
+              ></div>
+            </div>
+            <!-- Column 1 -->
+            <div class=" col-3 item-box">
+              <a href="#" class="text-box">
+                <img
+                  class="img-fluid"
+                  src="img/SUV-X5-hybrid.png"
+                  alt="Product_5">
+                <h3>T13 X5</h3>
+                <h6>Hybrid</h6>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur elit. Voluptatibus
+                  delectus enim earum amet.
+                </p>
+              </a>
+            </div>
+            <!-- Column 2 -->
+            <div class=" col-3 item-box">
+              <a href="#" class="text-box">
+                <img class="img-fluid" src="img/SUV-X7.png" alt="Product_6">
+                <h3>T13 X7</h3>
+                <h6>Petrol - Diesel</h6>
+                <p>
+                  Nihil laudantium at ducimus officiis tenetur. Inventore,
+                  cupiditate autem eius nemo.
+                </p>
+              </a>
+            </div>
+            <!-- Column 3 -->
+            <div class=" col-3 item-box">
+              <a href="#" class="text-box">
+                <img class="img-fluid" src="img/SUV-X5M.png" alt="Product_7">
+                <h3>T13 X7 M60i</h3>
+                <h6>Petrol</h6>
+                <p>
+                  Numquam est voluptatum suscipit inventore dolorem veritatis,
+                  quidem obcaecati dolorum vitae.
+                </p>
+              </a>
+            </div>
+            <!-- Column 4 -->
+            <div class=" col-3 item-box">
+              <a href="#" class="text-box">
+                <img class="img-fluid" src="img/SUV-X4.png" alt="Product_8">
+                <h3>T13 X6</h3>
+                <h6>Petrol - Diesel</h6>
+                <p>
+                  Odio quod eius expedita possimus provident aut repellat fuga.
+                  Autem reiciendis provident obcaecati cum.
+                </p>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section: Sedan -->
+        <section class="container">
+          <div class="row gx-lg-5 product-items container">
+            <!-- Card Title -->
+            <div class="row text-dark" id="Sedan">
+              <h2>SEDAN</h2>
+              <div
+                class="divider border-3 border-dark border-bottom align=left"
+              ></div>
+            </div>
+            <!-- Column 1 -->
+            <div class=" col-3 item-box">
+              <a href="#" class="text-box">
+                <img class="img-fluid" src="img/Sedan-i7.png" alt="Product_9">
+                <h3>T13 M5 Sedan</h3>
+                <h6>Hybrid</h6>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur elit. Voluptatibus
+                  delectus enim earum amet.
+                </p>
+              </a>
+            </div>
+            <!-- Column 2 -->
+            <div class=" col-3 item-box">
+              <a href="#" class="text-box">
+                <img
+                  class="img-fluid"
+                  src="img/Sedan-7series.png"
+                  alt="Product_10">
+                <h3>T13 7 Series Sedan</h3>
+                <h6>Hybrid</h6>
+                <p>
+                  Nihil laudantium at ducimus officiis tenetur. Inventore,
+                  cupiditate autem eius nemo.
+                </p>
+              </a>
+            </div>
+            <!-- Column 3 -->
+            <div class=" col-3 item-box">
+              <a href="#" class="text-box">
+                <img
+                  class="img-fluid"
+                  src="img/Sedan-5series.png"
+                  alt="Product_11">
+                <h3>T13 M760e</h3>
+                <h6>Diesel</h6>
+                <p>
+                  Numquam est voluptatum suscipit inventore dolorem veritatis,
+                  quidem obcaecati dolorum vitae.
+                </p>
+              </a>
+            </div>
+            <!-- Column 4 -->
+            <div class=" col-3 item-box">
+              <a href="#" class="text-box">
+                <img
+                  class="img-fluid"
+                  src="img/Sedan-3series.png"
+                  alt="Product_12">
+                <h3>T13 M5 Sedan</h3>
+                <h6>Hybrid</h6>
+                <p>
+                  Odio quod eius expedita possimus provident aut repellat fuga.
+                  Autem reiciendis provident obcaecati cum.
+                </p>
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer-container bg-dark">
+      <div class="footer-item-container container">
+        <!--Column 1-->
+        <div class="footer-item">
+          <h5>Reach to Us</h5>
+          <div>
+            <img class="footer-icon" src="./img-hiep/icon-address.png" alt="">
+            <a href="https://maps.app.goo.gl/ycX4YBMDguRZWESV6" class="footer-text" target="#">PO Box 230, 13101 Hämeenlinna</a>
+          </div>
+          <div>
+            <img class="footer-icon" src="./img/icons8-call.png" alt="">
+            <a href="tel:0401234567" class="footer-text">+358 04 1234567</a>
+          </div>
+          <div>
+            <img class="footer-icon" src="./img-hiep/icon-email.png" alt="">
+            <a href="mailto:info@group_13.fi" class="footer-text">info@group-13.fi</a>
+          </div>
+        </div>
+        <!--Column 2-->
+        <div class="footer-item">
+          <h5>Quick Links</h5>
+          <div>
+            <a href="index.html" class="footer-text" target="#">> Home</a>
+          </div>
+          <div>
+            <a href="Products.html" class="footer-text">> Products</a>
+          </div>
+          <div>
+            <a href="News.html" class="footer-text">> News</a>
+          </div>
+          <div>
+            <a href="Contact.html" class="footer-text">> Contact</a>
+          </div>
+        </div>
+        <!--Column 3-->
+        <div class="footer-item">
+          <h5>Connect with Us</h5>
+          <div>
+            <img class="footer-icon" src="./img-hiep/icon-facebook.png" alt="">
+            <a href="https://www.facebook.com/" class="footer-text" target="#">Facebook</a>
+          </div>
+          <div>
+            <img class="footer-icon" src="./img-hiep/icon-instagram.png" alt="">
+            <a href="https://www.instagram.com/" class="footer-text">Instagram</a>
+          </div>
+          <div>
+            <img class="footer-icon" src="./img-hiep/icon-twitterx.png" alt="">
+            <a href="https://twitter.com/?lang=en" class="footer-text">Twitter</a>
+          </div>
+          <div>
+            <img class="footer-icon" src="./img-hiep/icon-youtube.png" alt="">
+            <a href="https://www.youtube.com/" class="footer-text">Youtube</a>
+          </div>
+        </div>
+      </div>
+      <!--Copyright-->
+      <div class="copyright border-top border-light">
+        <p class="copyright-text container">
+          &copy;2024 HAMK Static Web Development by Team 13. Icons by
+          <a target="_blank" href="https://icons8.com"><i>Icons8</i></a>. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

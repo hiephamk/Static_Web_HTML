@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T13 Home Page</title>
+    <link rel="stylesheet" href="styles-home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles-header-footer.css">
+</head>
+<body>
+    <div class="container-fluid full-page">
+        <!-- Header -->
+        <div class="header-container align-content-center fs-5 fw-bold text-dark">
+            <!-- Logo -->
+            <div class="logo-container">
+                <img src="./img/logo.png" alt="logo">
+            </div>
+            <!-- Navigation -->
+            <div class="nav-container">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div
+                            class="collapse navbar-collapse nav-item"
+                            id="navbarSupportedContent"
+                        >
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html"
+                                        >Home</a
+                                    >
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a
+                                        class="nav-link dropdown-toggle"
+                                        href="Products.html"
+                                        role="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false"
+                                        >
+                                        Products
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="Products.html">Electric Cars</a></li>
+                                        <li>
+                                            <a class="dropdown-item" href="Products.html">SUV Cars</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="Products.html">Sedan Cars</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="Products.html">Assessories</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="News.html">News</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Contact.html">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="search">
+                                <input
+                                    type="text"
+                                    class="search-input"
+                                    placeholder="Search"
+                                    name="Search"
+                                >
+                                <a href="#" class="search-icon">
+                                    <img src="img/icons8-search.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- body -->
+        <div class="body-page container d-flex-column justify-content-center">
+            <div class="banner-items">
+                <div class="banner-img">
+                    <img class="img-fluid" src="./img-hiep/banner-home.jpeg" alt="">
+                </div>
+                <div class="banner-text">
+                     <input type="checkbox" id="ck">
+                     <h3>It's NEW ITEM!</h3>
+                     <p>Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet  </p>
+                     <div class="hide-text">
+                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, cum a.</p>
+                         <label class="sl" for="ck">View less </label>
+                     </div>
+                     <label class="sm" for="ck">View more </label>
+                 </div>
+            </div>
+            <div class="main-page">
+                <div class="icon-container container">
+                    <div class="cta-col col-4">
+                      <div class="cta-icon text-center">
+                        <img
+                          class="img-fluid"
+                          style="width: 80px; height: 80px"
+                          src="./img/icons8-play.png"
+                          alt="Video">
+                        <a href="https://www.youtube.com/watch?v=fdGWRq1dVBA" target="blank">
+                          <h2>Watch videos</h2>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="cta-col col-4">
+                      <div class="cta-icon text-center">
+                        <img
+                          class="img-fluid"
+                          style="width: 80px; height: 80px"
+                          src="./img/icons8-find.png"
+                          alt="Product">
+                        <a href="Products.html" target="#">
+                          <h2>Find spare parts</h2>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="cta-col col-4">
+                      <div class="cta-icon text-center">
+                        <img
+                          class="img-fluid"
+                          style="width: 80px; height: 80px"
+                          src="./img/icons8-write.png"
+                          alt="Partner">
+                        <a href="Contact.html" target="#">
+                          <h2>Become our partner</h2>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                <div class="accessory-container container">
+                    <input type="checkbox" id="expand">
+                    <input type="checkbox" id="expand-2">
+                    <input type="checkbox" id="expand-3">
+                    <div class="accessory-item-container d-inline-flex">
+                        <div class="accessory-item item-1 col-4">
+                            <img class="img-fluid" src="./img/interior-1.jpeg" alt="">
+                            <label class="label-1" for="expand">
+                                Self Driving Technology<br>
+                                Click here
+                            </label>
+                        </div>
+                        <div class="accessory-item item-2 col-4">
+                            <img class="img-fluid" src="./img-hiep/interior-2.jpeg" alt="">
+                            <label class="label-2" for="expand-2">
+                                Interior Accessories<br>
+                                Click here
+                            </label>
+                        </div>
+                        <div class="accessory-item item-3 col-4">
+                            <img class="img-fluid" src="./img-hiep/interior-4.jpeg" alt="">
+                            <label class="label-3" for="expand-3">
+                                Exterior Accessories<br>
+                                Click here
+                            </label>
+                        </div>
+                    </div>
+                    <div class="expand-item-2">
+                        <div class="d-flex expand-block">
+                            <img class="img-fluid col-6" src="./img-hiep/interior-2.jpeg" alt="">
+                            <div class="col-6 p-3">
+                                <h3 class="text-left-2">Interior Accessories</h3>
+                                <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, sit ipsa reprehenderit exercitationem accusantium aperiam architecto illum iusto veniam laboriosam iste officiis alias, velit at! Adipisci quo tempora dolores magni?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="expand-item-1">
+                        <div class="d-flex expand-block">
+                            <img class="img-fluid col-6" src="./img-hiep/interior-1.jpeg" alt="">
+                            <div class="col-6 p-3">
+                                <h3 class="text-left-1">Self Driving Technology</h3>
+                                <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, sit ipsa reprehenderit exercitationem accusantium aperiam architecto illum iusto veniam laboriosam iste officiis alias, velit at! Adipisci quo tempora dolores magni?</p>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="expand-item-3">
+                        <div class="d-flex expand-block">
+                            <img class="img-fluid col-6" src="./img-hiep/interior-4.jpeg" alt="">
+                            <div class="col-6 p-3 ">
+                                <h3 class="text-left-3">Exterior Accessories</h3>
+                                <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, sit ipsa reprehenderit exercitationem accusantium aperiam architecto illum iusto veniam laboriosam iste officiis alias, velit at! Adipisci quo tempora dolores magni?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="newcar-container">
+                    <div class="newcar-img">
+                        <img class="img-fluid" src="./img-hiep/luxury-2.jpeg" alt="">
+                    </div>
+                    <div class="newcar-text">
+                        <input type="checkbox" id="ch">
+                        <h3>THE NEW CAR, THE NEW HORIZON!!</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, cum a. Quidem nam corporis fugiat sit nisi pariatur beatae dolore, modi eligendi dolorem nihil asperiores, quae esse eveniet quod labore.</p>
+                        <div class="hide-text">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, cum a. Quidem nam corporis fugiat sit nisi pariatur beatae dolore, modi eligendi dolorem nihil asperiores, quae esse eveniet quod labore.</p>
+                            
+                            <label class="sl" for="ch">View less </label>
+                        </div>
+                        <label class="sm" for="ch">View more </label>
+                    </div>
+                </div>
+                <div class="Discovery-container container">
+                    <div class="discovery-text text-md-start fw-bold"><h3>Feature Products</h3></div>
+                    <div class="discovery-item">
+                        <div class="col-3 item-img"><img class="img-fluid" src="./img-hiep/luxury-2.jpeg" alt="Product_1">
+                            <div class="item-text"><p>Hybrid Cars</p></div>
+                        </div>
+                        <div class="col-3 item-img"><img class="img-fluid" src="./img-hiep/luxury-3.jpeg" alt="Product_2">
+                            <div class="item-text"><p>Electric Cars</p></div>
+                        </div>
+                        <div class="col-3 item-img"><img class="img-fluid" src="./img-hiep/luxury-1.jpeg" alt="Product_2">
+                            <div class="item-text"><p>Hi-Class Cars</p></div>
+                        </div>
+                        <div class="col-3 item-img"><img class="img-fluid" src="./img-hiep/luxury-4.jpeg" alt="Product_2">
+                            <div class="item-text"><p>Sport Cars</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer-container bg-dark">
+      <div class="footer-item-container container">
+        <!--Column 1-->
+        <div class="footer-item">
+            <h5>Reach to Us</h5>
+            <div>
+                <img class="footer-icon" src="./img-hiep/icon-address.png" alt="">
+                <a href="https://maps.app.goo.gl/ycX4YBMDguRZWESV6" class="footer-text" target="#">PO Box 230, 13101 Hämeenlinna</a>
+            </div>
+            <div>
+                <img class="footer-icon" src="./img/icons8-call.png" alt="">
+                <a href="tel:0401234567" class="footer-text">+358 04 1234567</a>
+            </div>
+            <div>
+                <img class="footer-icon" src="./img-hiep/icon-email.png" alt="">
+                <a href="mailto:info@group_13.fi" class="footer-text">info@group-13.fi</a>
+            </div>
+        </div>
+        <!--Column 2-->
+        <div class="footer-item">
+            <h5>Quick Links</h5>
+            <div>
+                <a href="index.html" class="footer-text" target="#">> Home</a>
+            </div>
+            <div>
+                <a href="Products.html" class="footer-text">> Products</a>
+            </div>
+            <div>
+                <a href="News.html" class="footer-text">> News</a>
+            </div>
+            <div>
+                <a href="Contact.html" class="footer-text">> Contact</a>
+            </div>
+        </div>
+        <!--Column 3-->
+        <div class="footer-item">
+            <h5>Connect with Us</h5>
+            <div>
+                <img class="footer-icon" src="./img-hiep/icon-facebook.png" alt="">
+                <a href="https://www.facebook.com/" class="footer-text" target="#">Facebook</a>
+            </div>
+            <div>
+                <img class="footer-icon" src="./img-hiep/icon-instagram.png" alt="">
+                <a href="https://www.instagram.com/" class="footer-text">Instagram</a>
+            </div>
+            <div>
+                <img class="footer-icon" src="./img-hiep/icon-twitterx.png" alt="">
+                <a href="https://twitter.com/?lang=en" class="footer-text">Twitter</a>
+            </div>
+            <div>
+                <img class="footer-icon" src="./img-hiep/icon-youtube.png" alt="">
+                <a href="https://www.youtube.com/" class="footer-text">Youtube</a>
+            </div>
+        </div>
+      </div>
+      <!--Copyright-->
+      <div class="copyright border-top border-light">
+        <p class="copyright-text container">
+          &copy;2024 HAMK Static Web Development by Team 13. Icons by
+          <a target="_blank" href="https://icons8.com"><i>Icons8</i></a>. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+        
+</body>
+</html>

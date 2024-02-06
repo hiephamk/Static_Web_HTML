@@ -1,0 +1,333 @@
+/* General */
+* {
+  box-sizing: border-box;
+}
+  
+html,
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: max-content;
+  background: #F4F4F4;
+}
+
+.body-container {
+  width: 100%;
+  height: max-content;
+  position: relative;
+  color: #333333;
+}
+
+div > a {
+  text-decoration: none;
+  color:#333333;
+}
+
+button {
+  background: transparent;
+  border: 2px solid #E74C3C;
+}
+
+.card-body {
+  width: 100%;
+  height: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+ul > li {
+  list-style: none;
+  padding: 10px;
+}
+/* Header - banner */
+.header-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  justify-items: center;
+  background-color: #f4f4f4;
+  margin: 0 auto;
+}
+.logo-container {
+  flex: 1;
+}
+.logo-container.alignment {
+  padding-left: 25px;
+}
+.logo-container > img {
+  width: 150px;
+}
+.nav-container {
+  flex: 4;
+  margin: auto;
+}
+.nav-item {
+  padding-right: 20px;
+}
+.search {
+  width: auto;
+  height: 40px;
+  background-color: #fff;
+  color: #333333;
+  display: block;
+  border-radius: 10px;
+  position: relative;
+  justify-items: baseline;
+}
+input {
+  font-size: 18px;
+  /*padding: 5px;
+  position: absolute;*/
+  right: 0;
+}
+
+.search-icon {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  margin-top: 25%;
+}
+.search-icon > img {
+  width: 25px;
+}
+
+
+/* Banner */
+
+.full-container {
+  display: grid;
+  justify-content: center;
+  width: 90%;
+  margin: auto; /* Căn giữa container */
+}
+
+/*.full-container {
+  max-width: 1300px; /* Hoặc kích thước tối đa phù hợp với thiết kế của bạn */
+  /* Định nghĩa grid và các thuộc tính khác */
+  /*grid-template-columns: 1fr 1fr; /* Chia container thành 2 cột với kích thước bằng nhau *
+  align-items: start; /* Căn chỉnh các items ở đầu mỗi cột *
+}
+
+
+.banner {
+  grid-column: 1 / -1; /* Banner sẽ kéo dài từ cột đầu tiên đến cột cuối cùng *
+}*/
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.btn-primary {
+  background-color: #E74C3C;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-bottom: 20px;
+}
+
+.btn-primary:hover {
+  background: #fc0101;
+  font-weight: bold;
+  border:#F4F4F4 1px solid;
+  cursor: pointer;
+}
+  
+/* Call to Action */
+
+
+.cta-col {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin: 10px;
+  border: #333333 1px solid;
+  mix-blend-mode: plus-darker;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+}
+
+.cta-col:hover {
+  background: #E74C3C;
+  border: #E74C3C 1px solid;
+  filter: drop-shadow(0px 4px 4px #333333);
+  cursor: pointer;
+}
+
+div > h1 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 39px;
+  color: #333333;
+  text-align: center;
+  padding-top: 20px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cta-col:hover h1 {
+  color: #f4f4f4;
+}
+
+.cta-icon:hover {
+  color: #f4f4f4;
+  filter: drop-shadow(0px 4px 4px rgb(0, 0, 0));
+}
+
+/* Footer */
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px auto;
+  background: #333333;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-left: 0px;
+}
+
+footer a {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+.footer-icon {
+  width: 30px;
+  height: auto;
+  padding: 0;
+}
+
+footer h5 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 122%;
+  color: #E74C3C;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 14.5px;
+  line-height: 24px; /* or 166% */
+  color: #F4F4F4;
+  padding: 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer img {
+  width: 30px;
+  height: auto;
+}
+
+.copyright {
+  color: #F4F4F4;
+  font-size: 14.5px;
+  text-align: left;
+  border-top: 1px solid #F4F4F4;
+  margin-top: 20px;
+  margin-left: -30px;
+}
+
+/* Product List */
+.product-container {
+  position: relative;
+  background-color: #ffffff;
+  width: 1338px;
+  height: 100%;
+  padding: 20px;
+  margin-left: 10px;
+}
+
+.divider {
+  width: 25%;
+  margin-bottom: 30px;
+  margin-left: 3px;
+}
+
+.text-box > h2 {
+  color: #333333;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  padding-top: 20px;
+}
+
+.text-box > h3 {
+  color:#E74C3C;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  margin-left: -8px;
+  margin-top: 20px;
+  margin-bottom: -3px;
+}
+
+.text-box > h6 {
+  color: #444444;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-left: -5px;
+}
+
+.text-box > p {
+  font-size: 16px;
+  line-height: 22px;
+  margin-left: -5px;
+  margin-bottom: 70px;
+}
+
+.mt-5 {
+  margin-bottom: 20px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 576px) {
+  footer-container {
+    flex-direction: column;
+    margin: auto;
+  }
+
+
+.grid-full-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Cột sẽ tự điều chỉnh dựa trên kích thước màn hình */
+  /* Các thuộc tính grid khác */
+}
+}
+
+@media (max-width: 768px) {
+  .full-container {
+   
+  }
+}
+.newcar-box {
+  display: flex; /* Bật chế độ flex */
+  /*align-items: center; /* Căn giữa các items theo chiều dọc */
+  justify-content: space-between; /* Phân bổ không gian đều giữa các items */
+  background-color: white;
+  padding: 20px;
+  max-width: 100%;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flex-item {
+  flex: 1; /* Các items sẽ chia đều không gian */
+  padding: 10px; /* Thêm padding nếu cần */
+}
+
+.flex-item img {
+  max-width: 100%; /* Đảm bảo ảnh không vượt quá kích thước của flex-item */
+  height: auto; /* Giữ nguyên tỉ lệ của ảnh */
+}

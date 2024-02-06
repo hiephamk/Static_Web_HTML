@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T13 Contact Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="styles-contact.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles-header-footer.css">
+    <!-- Add your favicon here -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="styles-header-footer.css" rel="stylesheet">
+</head>
+
+<body class="d-flex-column">
+  <!-- Header -->
+  <div class="header-container align-content-center fs-5 fw-bold text-dark">
+    <!-- Logo -->
+    <div class="logo-container alignment">
+      <img src="./img/logo.png" alt="logo">
+    </div>
+    <!-- Navigation -->
+    <div class="nav-container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse nav-item"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="Products.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >
+                  Products
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Products.html">Electric Cars</a></li>
+                  <li>
+                    <a class="dropdown-item" href="Products.html">SUV Cars</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="Products.html">Sedan Cars</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="Products.html">Assessories</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="News.html">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact</a>
+              </li>
+            </ul>
+            <div class="search">
+              <input
+                type="text"
+                class="search-input"
+                placeholder="Search"
+                name="Search">
+              <a href="#" class="search-icon">
+                <img src="img/icons8-search.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Body -->
+  <div class="full-container">
+    <!-- Banner -->
+    <div class="banner">
+      <img src="img/contact-banner.jpg" alt="Banner">
+     </div>
+    </div>
+    <!-- Main -->
+    <main class="container mt-5">
+      <section class="contact-form">
+        <h2>Send us your request</h2>
+        <p>Qui sequam, voluptatum. Incidunt, quia aperiam quos cupiditate consectetur, illum doloremque nulla ratione, amet consequuntur voluptates natus neque modi animi nam quaerat consequatur!, a illo!</p>
+        
+        <form>
+          <div class="mb-3">
+            <label for="fullName" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="fullName" placeholder="e.g John Smith">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="username@gmail.com">
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone number</label>
+            <input type="tel" class="form-control" id="phone" placeholder="+358 1234 56789">
+          </div>
+          <div class="mb-3">
+            <label for="address" class="form-label">Address</label>
+            <input type="text" class="form-control" id="address" placeholder="123 Boulevard">
+          </div>
+          <div class="row">
+            <div class="col">
+              <label for="city" class="form-label">City</label>
+              <select id="city" class="form-select">
+                <option selected>Choose...</option>
+                <!-- Options here -->
+              </select>
+            </div>
+            <div class="col">
+              <label for="zip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="zip" placeholder="00000">
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="request" class="form-label">Request</label>
+            <textarea class="form-control" id="request" rows="3"></textarea>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="contact-agreement">
+            <label class="form-check-label" for="contact-agreement">I agree to get contacted by email or message for this request.</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+      </section>
+
+      <!-- Contact info -->
+      <div class="newcar-box">
+        <div class="flex-item"> 
+          <div class="newcar-text">
+            <h3>QUESTIONS ABOUT DIGITAL SERVICES.</h3>
+            <p>For example, Digital key, remote software upgrade, map functions or My T13 App.</p>
+            <p><strong>Email:</strong> <a href="mailto:connecteddrive.fi@group-t13.fi">connecteddrive.fi@group-t13.fi</a></p>
+            <p><strong>Telephone number:</strong> +358 1234 56789</p>
+            <p><strong>Opening hours</strong></p>
+            <p>Monday to Friday from 8 am to 8 pm.</p>
+          </div>
+        </div>
+        <div class="flex-item">
+          <div class="newcar-img"><img src="./img/Contact-question.jpg" alt="digital-services">
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer-container bg-dark">
+      <div class="footer-item-container container">
+        <!--Column 1-->
+        <div class="footer-item">
+          <h5>Reach to Us</h5>
+          <div>
+            <img class="footer-icon" src="./img-hiep/icon-address.png" alt="">
+            <a href="https://maps.app.goo.gl/ycX4YBMDguRZWESV6" class="footer-text" target="#">PO Box 230, 13101 Hämeenlinna</a>
+          </div>
+          <div>
+            <img class="footer-icon" src="./img/icons8-call.png" alt="">
+            <a href="tel:0401234567" class="footer-text">+358 04 1234567</a>
+          </div>
+          <div>
+            <img class="footer-icon" src="./img-hiep/icon-email.png" alt="">
+            <a href="mailto:info@group_13.fi" class="footer-text">info@group-13.fi</a>
+          </div>
+        </div>
+        <!--Column 2-->
+        <div class="footer-item">
+          <h5>Quick Links</h5>
+          <div>
+            <a href="index.html" class="footer-text" target="#">> Home</a>
+          </div>
+          <div>
+            <a href="Products.html" class="footer-text">> Products</a>
+          </div>
+          <div>
+            <a href="News.html" class="footer-text">> News</a>
+          </div>
+          <div>
+            <a href="Contact.html" class="footer-text">> Contact</a>
+          </div>
+        </div>
+        <!--Column 3-->
+        <div class="footer-item">
+          <h5>Connect with Us</h5>
+          <div>
+            <img class="footer-icon" src="./img-hiep/icon-facebook.png" alt="">
+            <a href="https://www.facebook.com/" class="footer-text" target="#">Facebook</a>
+          </div>
+          <div>
+            <img class="footer-icon" src="./img-hiep/icon-instagram.png" alt="">
+            <a href="https://www.instagram.com/" class="footer-text">Instagram</a>
+          </div>
+          <div>
+            <img class="footer-icon" src="./img-hiep/icon-twitterx.png" alt="">
+            <a href="https://twitter.com/?lang=en" class="footer-text">Twitter</a>
+          </div>
+          <div>
+            <img class="footer-icon" src="./img-hiep/icon-youtube.png" alt="">
+            <a href="https://www.youtube.com/" class="footer-text">Youtube</a>
+          </div>
+        </div>
+      </div>
+      <!--Copyright-->
+      <div class="copyright border-top border-light">
+        <p class="copyright-text container">
+          &copy;2024 HAMK Static Web Development by Team 13. Icons by
+          <a target="_blank" href="https://icons8.com"><i>Icons8</i></a>. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

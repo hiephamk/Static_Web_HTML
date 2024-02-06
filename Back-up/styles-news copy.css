@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: max-content;
+  position: relative;
+}
+
+.main-page{
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: auto;
+}
+
+button {
+  background: transparent;
+  border: 1px solid #6e6363;
+}
+
+.card-header {
+  width: 100%;
+}
+
+nav {
+  background: transparent;
+}
+
+.card-body {
+  width: 100%;
+  height: auto;
+}
+
+.btn :hover {
+  background: #aea3a3;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+}
+
+ul > li {
+  list-style: none;
+  padding: 10px;
+}
+
+nav {
+  margin-top: auto;
+  padding: 24px;
+  text-align: center;
+  /* box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); */
+  /* background: #3fa46a; */
+}
+
+nav a {
+  transition: 0.3s ease;
+  /* background: #3fa46a; */
+  color: #E74C3C;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  padding: 20px 0;
+  margin: 0 5px;
+  font-size: 17px;
+}
+nav a:hover {
+  /* border-top: 4px solid white; */
+  border-bottom: 4px solid #E74C3C;
+  text-decoration: auto;
+  padding: 6px 0; 
+}
+
+.icon-container {
+  margin:20px auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+
+/* media query */
+@media (max-width: 576px) {
+  .newcar-container, .icon-container, .expand-block {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 576px) {
+  .banner-container {
+    width: 100%;
+    height: 100vh;
+  }
+}
+@media (max-width: 576px) {
+  .item-text {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .banner-text, .cta-col {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .full-page,
+  .accessory-container {
+    margin: auto;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .footer-container {
+    flex-direction: column;
+    margin: auto;
+  }
+}
