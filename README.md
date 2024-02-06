@@ -11,8 +11,15 @@ You will start by outlining the planned features, task assignments to team membe
 
 Below, you will find an example to help you get started. Feel free to customize it to match your specific requirements and needs.
 
-Project Name - Team Number
-A brief description of your web development project.
+Website of Car production company - Team 13
+The website will serve as a comprehensive product showcase platform for a car producing company. The website will display the company news, product descriptions and contact information.
+
+Member:
+1. Nguyen Dinh Khanh Chi
+2. Huynh Van Hiep
+3. Vu Quang Dan
+4. Tran Huynh An Duy
+
 
 Table of Contents
 Features
@@ -20,6 +27,7 @@ Database Tables
 Created Forms
 Created Tables
 Features
+
 In this section, list and describe the features or functionality that you are working on. You can use checkboxes to track the progress of each feature.
 
  Feature 1 (Full Name): Title of the feature.
